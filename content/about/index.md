@@ -4,7 +4,9 @@ eleventyNavigation:
   key: About Me
   order: 3
 ---
-# About Liam and amos
+# About this website
 
 I am a person that writes stuff.
-Such cool STUFF
+More changes  
+Changes changes changes
+
