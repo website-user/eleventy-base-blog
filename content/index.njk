@@ -5,6 +5,34 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
+
+<h1>Liam Nilsen</h1>
+I am a designer and educator based in Åårhus, passionate about making tools and environments that empower learners of all ages to make the world a more playful, equitable, and sustainable place.
+
+
+<h2>Now</h2>
+I’m building a learning community at Frontløberne, putting on events, renovating a house, and eating as many distinct species as possible before 21/4/2024. I’m also the chair person of the small art collective Amok 2.0.
+
+I’m not currently accepting work, but soon I’ll be back consulting and facilitating workshops
+
+
+
+<h2>Before</h2>
+I recently left the LEGO Foundation where I ran the LEGO Idea Studio, designing tools and running workshops to help NGOs understand playful learning through hands-on experiences. I also advised on program design and lead efforts to build a peer learning community within the LEGO Foundation.
+
+Before LEGO, I ran the online presence of Makey Makey, developing content, managing customer and technical support, and building a user generated content platform. I also founded and ran an Agile Learning Center for self-directed learners aged 14-18.
+
+
+
+
+
+
+
+
+
+
+<!-- the below is post-list stuff -->
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>

@@ -1,26 +1,43 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: New Website
+description: This is the first post on my new website
+date: 2023-09-14
 tags:
-  - another tag
+  - blogging
+  - writing
+  - websites
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Nice to have a new homepage for myself on the internet. 
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+We'll see how well this format - I'm running 'Eleventy' - works with the content I've already got, and the stuff I've been writing in [obsidian](https://obsidian.md/). 
 
-## Section Header
+Do markdown links work in here? Adding images seemed.... weird.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+What other stuff works? 
 
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
+# Header 1
+blah blah
 
- // Test with a line break above this line.
- console.log('Test');
-```
+##### Header 5
+blah blah
+
+> quote text. 
+> quote contiuned.
+
+> weird - quotes break line breaks.
+>> double inset what happens
+
+- bullet point test 
+> - inset bullet test 
+> > - 2x inset test 
+
+Can we add images from the web? 
+![image from the web](https://liam.media/wp-content/uploads/2020/12/IMG_1396.png)
+
+
+---
+
+Just added three blank lines above this line - how does that render?
+_underscore italics test_ and **double star bold test** and *single star test* 
+
+
