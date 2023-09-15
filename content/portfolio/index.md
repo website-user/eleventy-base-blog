@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: About Me
-  order: 3
+  key: Portfolio
+  order: 2
 ---
-# About this website
+# Portfolio
 
 I am a person that writes stuff.
 More changes  

@@ -10,6 +10,10 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+// Liam adding this plugin 2023-09-15
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
+
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -20,6 +24,10 @@ module.exports = function(eleventyConfig) {
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+
+	// Liam here - adding this plugin on 2023-09-15
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
 
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
