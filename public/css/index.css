@@ -96,9 +96,11 @@ main :first-child {
 	margin-top: 0;
 }
 
+/*Liam: ditched the bottom border by bringing it to 0px */
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	border-bottom: 0px dashed var(--color-gray-20);
 }
+
 header:after {
 	content: "";
 	display: table;
@@ -143,8 +145,9 @@ code {
 }
 
 /* Header */
+/* previously was display:flex; */
 header {
-	display: flex;
+	display: block;
 	gap: 1em .5em;
 	flex-wrap: wrap;
 	align-items: center;
@@ -168,7 +171,9 @@ header {
 }
 .nav-item {
 	display: inline-block;
-	margin-right: 1em;
+/*	margin-right: 1em; */
+/* Liam: I've reset the margin here which spaces out the nav menu items and centers them.*/
+	margin: 0 auto;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -267,4 +272,15 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+.logo {
+    max-width: 60%; /* Adjust as needed */
+    margin: 0 auto; /* Centers the logo if the header is flexbox or grid */
+    display: block; /* If you want to center the logo for block-level containers */
+}
+
+.logo-container {
+    text-align: center; /* Center the logo within its container */
+    margin-bottom: 12px; /* Optional space between the logo and the menu */
 }

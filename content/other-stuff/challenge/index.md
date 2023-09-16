@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Other Stuff
+  key: Challenge
   parent: Other Stuff
   order: 1
 ---

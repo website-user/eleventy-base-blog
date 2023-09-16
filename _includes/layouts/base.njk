@@ -37,17 +37,27 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<!-- Liam: commented out this home link on 2023-09-16 <a href="/" class="home-link">{{ metadata.title }}</a> -->
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+
+	        <div class="logo-container">        
+				<img 
+    				src="/public/img/Liam_Nilsen_light.png" 
+   					 data-dark-src="/public/img/Liam_Nilsen_dark.png" 
+   					 alt="Liam Nilsen" 
+   					 class="logo" 
+  					 id="logo">
+			</div>
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
+					{%- for entry in collections.all | eleventyNavigation %}
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
 				</ul>
 			</nav>
+	
 		</header>
 
 		<main id="skip">
@@ -57,5 +67,15 @@
 		<footer></footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+
+		<!-- Liam: Just added this script to switch between dark and light mode logos -->
+		<script>
+   		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        	const logo = document.getElementById('logo');
+        	const darkSrc = logo.getAttribute('data-dark-src');
+        	logo.src = darkSrc;
+   		}
+		</script>
+
 	</body>
 </html>
