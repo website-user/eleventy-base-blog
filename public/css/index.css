@@ -169,6 +169,7 @@ header {
 	margin: 0;
 	list-style: none;
 }
+
 .nav-item {
 	display: inline-block;
 /*	margin-right: 1em; */
@@ -296,16 +297,14 @@ h2 + .header-anchor {
 } 
 
 .dropdown a {
-    padding: 10px 16px;
+    padding: 5px 0px;
     text-decoration: none;
     display: block;
 }
 
-/* Show the dropdown when hovering over its parent li element */
-nav li:hover .dropdown {
+nav li:hover .dropdown { /* Show the dropdown when hovering over its parent li element */
     display: block;
+	background-color: var(--background-color);
 }
 
-.dropdown li {
-    display: inline-block; /* Makes child links appear inline */
-}
+/*Liam 2023-09-17: still an issue with the dropdown, which is that the Current Page styling isn't working. also, it's not going to work on mobile. Yet.*/
