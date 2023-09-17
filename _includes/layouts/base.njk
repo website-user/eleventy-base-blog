@@ -51,14 +51,26 @@
    					 class="logo" 
   					 id="logo">
 			</div>
+		
+
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
 					{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
+						<li class="nav-item">
+							<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+							{%- if entry.children %}
+								<ul class="dropdown">
+									{%- for child in entry.children %}
+										<li><a href="{{ child.url }}">{{ child.title }}</a></li>
+									{%- endfor %}
+								</ul>
+							{%- endif %}
+						</li>
+					{%- endfor %}
 				</ul>
 			</nav>
+
 	
 		</header>
 

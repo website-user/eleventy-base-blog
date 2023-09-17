@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Consulting
+  key: Services
   order: 4
 ---
 # Consulting services

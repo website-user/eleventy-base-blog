@@ -53,7 +53,7 @@ html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 40em; /*Set the max width of the content on the page*/
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -172,13 +172,13 @@ header {
 .nav-item {
 	display: inline-block;
 /*	margin-right: 1em; */
-/* Liam: I've reset the margin here which spaces out the nav menu items and centers them.*/
-	margin: 0 auto;
+	margin: 0 auto; /* Liam: I've reset the margin here which spaces out the nav menu items and centers them.*/
+	position: relative; /* This is important to position the dropdown relative to the parent nav item */
 }
-.nav-item a[href]:not(:hover) {
+.nav-item a[href]:not(:hover) { /*The styling of a nav menu item on hover*/
 	text-decoration: none;
 }
-.nav a[href][aria-current="page"] {
+.nav a[href][aria-current="page"] { /*The styling that shows the current page you're on*/
 	text-decoration: underline;
 }
 
@@ -275,7 +275,7 @@ h2 + .header-anchor {
 }
 
 .logo {
-    max-width: 60%; /* Adjust as needed */
+    max-width: 20em; /* Adjust as needed */
     margin: 0 auto; /* Centers the logo if the header is flexbox or grid */
     display: block; /* If you want to center the logo for block-level containers */
 }
@@ -283,4 +283,29 @@ h2 + .header-anchor {
 .logo-container {
     text-align: center; /* Center the logo within its container */
     margin-bottom: 12px; /* Optional space between the logo and the menu */
+}
+
+
+/* Liam: GBT got me adding this on 2023-09-17. Style for the dropdown */
+.dropdown {
+    display: none; 
+    position: absolute;
+    z-index: 1;
+	list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes the default padding */
+} 
+
+.dropdown a {
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown when hovering over its parent li element */
+nav li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: inline-block; /* Makes child links appear inline */
 }
