@@ -1,7 +1,8 @@
 ---
-title: New Website
+title: First Post
 description: This is the first post on my new website
 date: 2023-09-14
+cover: img/tnketanken-frej.jpg
 tags:
   - blogging
   - writing

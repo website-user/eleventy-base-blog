@@ -2,13 +2,14 @@
 title: Dummy Site
 description: This is the first post on my new website
 date: 2023-09-18
+cover: img/tnketanken-frej.jpg
+type: blog
 tags:
   - writing
   - websites
 ---
 
-# I am a big smarty
+# This is just to test image functionality
 
-
-blah blah blah
+Is this thing on? 
 

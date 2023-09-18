@@ -15,6 +15,22 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 
 module.exports = function(eleventyConfig) {
+
+	// Liam: 2023-09-18 Adding this stuff to try and make a separate blog and portfolio collection.
+	eleventyConfig.addCollection("blog", function(collectionApi) {
+		return collectionApi.getAll().filter(function(item) {
+		  return "type" in item.data && item.data.type === "blog";
+		});
+	  });
+	
+	  eleventyConfig.addCollection("portfolio", function(collectionApi) {
+		return collectionApi.getAll().filter(function(item) {
+		  return "type" in item.data && item.data.type === "portfolio";
+		});
+	  });
+
+
+
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
