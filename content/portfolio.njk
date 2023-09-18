@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Portfolio
+  order: 2
+---
+<h1>Portfolio</h1>
+
+Here is some recent work.
+
+{% set postslist = collections.portfolio %}
+{% include "postslist.njk" %}
