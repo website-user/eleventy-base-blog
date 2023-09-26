@@ -310,8 +310,15 @@ nav li:hover .dropdown { /* Show the dropdown when hovering over its parent li e
 /*Liam 2023-09-17: still an issue with the dropdown, which is that the Current Page styling isn't working. also, it's not going to work on mobile. Yet.*/
 
 
-.postlist-cover {
+.postlist-cover { /*this is working*/
     max-width: 100px;  /* Adjust this to your desired width */
+    height: auto;
+    margin-right: 10px;  /* Space between the image and the post title */
+    vertical-align: middle;  /* Aligns the image with the post title */
+}
+
+.portfolioImage {
+    max-width: 200px;  /* Adjust this to your desired width */
     height: auto;
     margin-right: 10px;  /* Space between the image and the post title */
     vertical-align: middle;  /* Aligns the image with the post title */

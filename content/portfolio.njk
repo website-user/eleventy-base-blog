@@ -8,5 +8,14 @@ eleventyNavigation:
 
 Here is some recent work.
 
-{% set postslist = collections.portfolio %}
-{% include "postslist.njk" %}
+<h1>Troubleshooting....</h1>
+
+{% for post in collections.portfolio %}
+<a href="{{post.data.url}}">
+  <img class="portfolioImage" src="{{post.data.cover}}">
+</a>
+<h2> <a href="{{post.data.url}}">{{post.data.title}}</a></h2>
+{% endfor %}
+
+blah blah
+
