@@ -8,14 +8,15 @@ eleventyNavigation:
 
 Here is some recent work.
 
-<h1>Troubleshooting....</h1>
-
-{% for post in collections.portfolio %}
-<a href="{{post.data.url}}">
-  <img class="portfolioImage" src="{{post.data.cover}}">
-</a>
-<h2> <a href="{{post.data.url}}">{{post.data.title}}</a></h2>
-{% endfor %}
-
-blah blah
-
+<div class="portfolioLayout">   
+    {% for post in collections.portfolio %}
+      <div class="portfolioItem">
+        <a href="{{post.url}}">
+          <img class="portfolioImage" src="{{post.data.cover}}">
+        </a>
+        <h3> 
+          <a href="{{post.data.url}}">{{post.data.title}}</a>
+        </h3>
+      </div>
+    {% endfor %}
+</div>
