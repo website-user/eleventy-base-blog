@@ -51,9 +51,14 @@ body {
 }
 html {
 	overflow-y: scroll;
+	min-height: 100%; /*2023-09-27 adding for footer to be bottom*/
+
 }
 body {
 	max-width: 54em; /*Set the max width of the content on the page*/
+}
+
+footer {
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -346,3 +351,9 @@ nav li:hover .dropdown { /* Show the dropdown when hovering over its parent li e
 	text-decoration: none;
 }
 
+.inline img {
+	/*2023-09-27 adding this specifically for the Consulting page*/
+	float: left;
+	margin: 0px;
+	margin-right:20px
+}
