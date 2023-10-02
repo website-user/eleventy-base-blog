@@ -8,5 +8,3 @@ cover: /img/Parque-de-Farrapos.jpg
 # Makey Makey
 
 My work on Makey Makey.
-
-cover: /img/Makey_Makey_drawing.png
