@@ -5,6 +5,15 @@ eleventyNavigation:
   order: 4
 ---
 
+<style>
+.inline img {
+	/*2023-09-27 adding this specifically for the Consulting page*/
+	float: left;
+	margin: 0px;
+	margin-right:20px
+}
+</style>
+
 <div class="inline">
     <div>
       <img src="/img/IMG_20210531_151157-2-scaled.jpg" alt="Girl in a jacket" width="300" height="100%">
