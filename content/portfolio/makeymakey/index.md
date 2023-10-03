@@ -58,3 +58,18 @@ Preparing to go on TV in Northern Mexico
 ## Notes
 
 [1](https://liam.media/projects/makey-makey/body-1). For more on low floor, wide walls, high ceilings, see [Lifelong Kindergarten, Mitchell Resnick](https://learn.media.mit.edu/lcl/weeks/week3/).
+
+
+# FOLD THIS IN - from other post.
+
+## Communicating meta-creativity
+
+https://www.youtube.com/watch?v=rfQqh7iCcOU
+
+Jay Silver and Eric Rosenbaum spent months putting together the video used in the initial [Kickstarter campaign](https://www.kickstarter.com/projects/joylabz/makey-makey-an-invention-kit-for-everyone). They used nine different examples to communicate the range of possibilities – but nonetheless, countless people would buy a Makey Makey, build a banana piano, and get stuck. They wouldn’t know where to go next.
+
+The power of Makey Makey is in the possibilities it opens up to create new things, so our communications focused on user-generated content over in-house content. Showcasing what users were doing carried the embedded message that non-experts could do amazing things using the tool. When deciding what to share, the guiding principle was to illustrate the low floor (easy to get started), the high ceiling (potential for complexity), and wide walls (breadth of possibilities at each level of complexity) of creating with Makey Makey.[1](https://liam.media/projects/makey-makey/#foot-1)
+
+To cultivate higher ceilings and wider walls, we sponsored power-users with additional Makey Makeys and amplified their projects in our newsletter and on social media. Some of my favorite wide wall/high ceiling projects include : [Planet Licker](https://www.pcgamer.com/planet-licker-is-a-game-you-literally-play-with-your-tongue/), [Classic Games controller showcase](https://www.youtube.com/watch?v=tFE0ojpB0dg) , [Assistive technology like this](https://makeymakey.com/blogs/blog/featured-educators-michele-morgan-and-jennifer-schank), [The Nairobi Play project](https://challenges.openideo.com/challenge/2019-bridgebuilder-challenge/ideas/the-nairobi-play-project), and [Underground Sound](https://web.archive.org/web/20170409145914/http://blog.makeymakey.com/2016/10/10/underground-sound/), just to name a few.
+
+## Makey Makey Labz
