@@ -5,8 +5,17 @@ tags:
   - "design"
   - "selected-portfolio"
   - "the-lego-idea-studio"
-coverImage: "IMG_0571-scaled.jpg"
+cover: /img/IMG_0571-scaled.jpg
 ---
+
+<style>
+  img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+</style>
 
 ## Open World Kaleidoscope
 
@@ -42,11 +51,9 @@ In the weeks that followed I continued to experiment with the Open World Kaleido
 
 # Figure out how to host and link to PDF here
 
-[{% image "./images/GTM-Cover-image.jpg", "" %}]
+<a href="/documents/Georgine-the-Turtle-and-the-Mirror.pdf"> {% image "./images/GTM-Cover-image.jpg", "" %} </a>
 
-ABOVE IMAGE SHOULD LINK TO: (https://liam.media/wp-content/uploads/2021/06/Georgine-the-Turtle-and-the-Mirror.pdf)
-
-[Georgine-the-mirror-and-the-turtle.pdf](https://liam.media/wp-content/uploads/2021/06/Georgine-the-Turtle-and-the-Mirror.pdf)
+<a href="/documents/Georgine-the-Turtle-and-the-Mirror.pdf">Georgine-the-mirror-and-the-turtle.pdf</a>
 
 ## User Experience Study
 

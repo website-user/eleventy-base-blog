@@ -17,10 +17,10 @@ Building up for future photography career.
 
 Stay tuned for more on the LEGO Papert Fellowships.
 
-{% image "./images/Screen-Shot-2018-03-25-at-2.18.09-PM-213x300.png", "" %}
+{% image "./images/Screen-Shot-2018-03-25-at-2.18.09-PM.png", "" %}
 
  
 
 Here's LEGO Papert Fellow Kreg Hanning in that same pool a week earlier.
 
-{% image "./images/IMG_3858-300x225.jpg"< "" %}
+{% image "./images/IMG_3858.jpg", "" %}

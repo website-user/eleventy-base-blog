@@ -9,7 +9,14 @@ tags:
 cover: "063AA8B8-1823-4E49-9CF7-AC818C4EAA3B_1_105_c.jpeg"
 ---
 
-{% image "./images/FSL-Banner-1024x536.png", "" %}
+<style>
+img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+{% image "./images/FSL-Banner.png", "" %}
 
 ## The Festival for Beached Play
 
@@ -46,89 +53,60 @@ Photos by Fie Lund Mortensen, En Hemmelig Klub, and me.
     
 {% image "./images/IMG_0989-scaled.jpg", "" %}
 
-    
 {% image "./images/121625461_3227498714044130_7730605803598595573_o.jpg", "" %}
-
     
 {% image "./images/121803577_3221157431344925_17407541552976710_o.jpg", "" %}
-
     
 {% image "./images/122137384_3227497820710886_5805698607626352504_o.jpg", "" %}
-
     
 {% image "./images/121810605_3221154718011863_7100080194098086292_o.jpg", "" %}
 
-    
 {% image "./images/121803631_3221155144678487_5383340437810374846_o.jpg", "" %}
-
     
 {% image "./images/121844286_3227499437377391_9033139314420859381_o.jpg", "" %}
-
     
 {% image "./images/121888892_3221157971344871_4536651578927683581_o.jpg", "" %}
-
     
 {% image "./images/122025265_3227498737377461_173583850964527_o.jpg", "" %}
-
     
 {% image "./images/122035855_3221157108011624_823983740310139705_o.jpg", "" %}
 
-    
 {% image "./images/122105298_3227497794044222_2970191452539343830_o.jpg", "" %}
-
     
 {% image "./images/122120608_3227498767377458_5414834400053537114_o.jpg", "" %}
-
     
 {% image "./images/122165776_3227498897377445_2268177190806622865_o.jpg", "" %}
-
     
 {% image "./images/IMG_0955-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0959-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0962-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0964-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0967-scaled.jpg", "" %}
 
-    
 {% image "./images/IMG_0972-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0977-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0980-scaled.jpg", "" %}
 
-    
 {% image "./images/IMG_0987-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_0998-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_1030-scaled.jpg", "" %}
 
-    
 {% image "./images/IMG_2285-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_2288-scaled.jpg", "" %}
 
-    
 {% image "./images/IMG_2297-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_2306-scaled.jpg", "" %}
-
     
 {% image "./images/IMG_2312-scaled.jpg", "" %}
     
-
 {% image "./images/IMG_2325-scaled.jpg", "" %}
