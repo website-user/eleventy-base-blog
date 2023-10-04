@@ -10,34 +10,87 @@ eleventyNavigation:
 	/*2023-09-27 adding this specifically for the Consulting page*/
 	float: left;
 	margin: 0px;
-	margin-right:20px
+	margin-right:20px;
+  width:300px;
+  height:100%;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid var(--text-color);;
+  background-color: var(--background-color);
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: var(--background-color);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.08s;
+  font-size: 17px;
+  color: var(--text-color);
+
+}
+
+.tab button:hover {
+  color: var(--text-color-link-active);
+  text-decoration: underline;
+  background-color: var(--background-color);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  text-decoration: underline;
+  background-color: var(--background-color);
+  color: var(--text-color-link-active);
+
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid var(--text-color);;
+  border-top: none; /*this keeps the lines doubling up*/
+  min-height: 200px;
 }
 </style>
 
+
 <div class="inline">
     <div>
-      <img src="/img/IMG_20210531_151157-2-scaled.jpg" alt="Girl in a jacket" width="300" height="100%">
+      <img src="/img/IMG_20210531_151157-2-scaled.jpg" alt="Liam standing next to a bunch of tvs">
     </div>
   <h1>
     I like to work to supporting people at the intersection of creativity, learning, and communication by designing creative learning experiences, managing programs, and building relationships.
   </h1>
   </div>
 
-I am always looking for new formats to work in that make the world a more playful and participatory place. Here you can find some formats I've worked with in the past, but keep in mind I'm always up for designing new solutions for your context.
 
-- [Design](#tab-design)
-- [Learning Communities](#tab-learningcommunities)
-- [Facilitation](#tab-facilitation)
 
-Design for playful learning means making "objects to think with."  
-Blocks create a playable interface with gravity for toddlers that are building their first mental models of the world. My design work builds on building blocks to create playable interfaces with complex ideas.
 
-I make play materials and guidebooks that empower people to make creative choices and learn through playful exploration.
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Design')" id="defaultOpen">Design</button>
+  <button class="tablinks" onclick="openTab(event, 'Learning Communities')">Learning Communities</button>
+  <button class="tablinks" onclick="openTab(event, 'Facilitation')">Facilitation</button>
+</div>
 
-All communities, be they workplaces or makerspaces, are learning communities; but they're not created equal. The culture of every community can evolve to be more participatory, equitable, playful, and creative. I have worked with many organizations to create tools and cultivate a culture of learning and cooperation.
+<div id="Design" class="tabcontent">
+  <p>Design for playful learning means making “objects to think with.”Blocks create a playable interface with gravity for toddlers that are building their first mental models of the world. My design work builds on building blocks to create playable interfaces with complex ideas.</p> <p>I make play materials and guidebooks that empower people to make creative choices and learn through playful exploration.</p>
+</div>
 
-The 21st century is collaborative. Don't preach at; play with.  
-I design and facilitate workshops and events that give people a context to play and explore new tools and mediums. Play promotes deeper learning, strengthening social ties, and stimulates creative thinking.
+<div id="Learning Communities" class="tabcontent">
+  <p>All communities, be they workplaces or makerspaces, are learning communities; but they’re not created equal. The culture of every community can evolve to be more participatory, equitable, playful, and creative. I have worked with many organizations to create tools and cultivate a culture of learning and cooperation.</p> 
+</div>
+
+<div id="Facilitation" class="tabcontent">
+  <p>The 21st century is collaborative. Don’t preach at; play with.
+I design and facilitate workshops and events that give people a context to play and explore new tools and mediums. Play promotes deeper learning, strengthening social ties, and stimulates creative thinking.</p>
+</div>
 
 ## Recent and upcoming workshops and talks
 
@@ -67,3 +120,24 @@ Playful Learning and Sustainable Energy **| Cambridge MA | July 7-8 2023**
 
 **Computer Clubhouse | Online | Mar 2021**  
 \- Workshop: Creating and animating self portraits with prized objects (with the Tinkering Studio and Lifelong Kindergarten)
+
+
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("defaultOpen").click();
+
+</script>
