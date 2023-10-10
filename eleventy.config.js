@@ -13,8 +13,14 @@ const pluginImages = require("./eleventy.config.images.js");
 // Liam adding this plugin 2023-09-15
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
+// 2023-10-09 adding favicon plugin
+const faviconsPlugin = require("eleventy-plugin-gen-favicons");
+
 
 module.exports = function(eleventyConfig) {
+
+	// 2023-10-09 favicon plugin
+	eleventyConfig.addPlugin(faviconsPlugin, {});
 
 	// start footnote code
 	// set markdown footnote processor
