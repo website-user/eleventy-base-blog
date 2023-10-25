@@ -1,7 +1,7 @@
 ---
 title: "Endor ALC"
 date: "2020-12-11"
-cover: "/img/IMG_1384.png"
+cover: /img/IMG_1384.png
 ---
 
 {% image "./images/EndorLogoTrnasparentEdit.png", "" %}

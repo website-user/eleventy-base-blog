@@ -185,10 +185,13 @@ header {
 
 /* Nav */
 .nav {
-	display: flex;
+	display: flex; 	
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .nav-item {
