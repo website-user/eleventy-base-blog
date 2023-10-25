@@ -1,4 +1,5 @@
 ---
+title: Audio
 layout: layouts/base.njk
 eleventyNavigation:
   key: Audio

@@ -1,4 +1,5 @@
 ---
+title: Other Stuff
 layout: layouts/base.njk
 eleventyNavigation:
   key: Other Stuff

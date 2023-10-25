@@ -1,4 +1,5 @@
 ---
+title: Challenge
 layout: layouts/base.njk
 eleventyNavigation:
   key: Challenge

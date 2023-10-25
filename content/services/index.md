@@ -1,4 +1,5 @@
 ---
+title: Services
 layout: layouts/base.njk
 eleventyNavigation:
   key: Services
