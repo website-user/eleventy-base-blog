@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title or metadata.title }}</title>
+		<title>{{ title + " | " if title }}{{ metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 
 		{#- Atom and JSON feeds included by default #}
@@ -33,7 +33,9 @@
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 		
-		{# 2023-10-09 can't get the favicon plugin to work. Have submitted an issue on Gitub {% favicons '/img/cropped-Favicon-192x192.png' %} #}
+		{# 2023-10-09 can't get the favicon plugin to work. Have submitted an issue on Gitub #}
+
+		<link rel="icon" type="image/x-icon" href="/img/favicon.svg">
 
 	</head>
 	<body>
@@ -61,7 +63,6 @@
 	   			</path>
 			</a>
 			</div>
-		
 
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
@@ -94,7 +95,7 @@
 
 		</div>
    			<footer id="footer">
-				<a href="/siteinfo">Site Info</a>
+				<a href="/contact">Contact</a> | <a href="/siteinfo">Site Info</a>
 			</footer>
  		</div>
 	</body>

@@ -338,34 +338,6 @@ nav li:hover .dropdown { /* Show the dropdown when hovering over its parent li e
     vertical-align: middle;  /* Aligns the image with the post title */
 }
 
-.portfolioLayout {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-	grid-gap: 2em;
-}
-
-.portfolioImage {
-	width: 100%;
-	height: auto;
-	border-radius: 2px;
-}
-
-.portfolioItem {
-    /* This makes sure the image and title inside it stack vertically */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Optional: to center items horizontally */
-}
-
-.portfolioItem h3 {
-	/* this reduces the spacing between the text and image. */
-    margin-top: 0; 
-}
-
-.portfolioItem a {
-	/*This removes the underline from post title*/
-	text-decoration: none;
-}
 
 svg {
 	fill: var(--text-color);
