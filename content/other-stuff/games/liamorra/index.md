@@ -3,7 +3,7 @@ title: "Liamorra"
 date: "2021-01-06"
 tags: 
   - "game"
-cover: "/img/Liamorra.png"
+cover: "/img/liamorra.svg"
 ---
 
 # Liamorra

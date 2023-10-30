@@ -7,7 +7,7 @@ tags:
   - "music"
   - "play"
   - "rules"
-cover: /img/Whistle-Wrestling-Featured-Image.png
+cover: /img/whistle_wrestling_icon.svg
 ---
 
 # Whistle Wrestling
