@@ -19,8 +19,10 @@ eleventyNavigation:
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid var(--text-color);;
+  border: 1px solid var(--text-color);
   background-color: var(--background-color);
+  border-radius: 3px 3px 0px 0px;
+
 }
 
 /* Style the buttons inside the tab */
@@ -46,8 +48,9 @@ eleventyNavigation:
 /* Create an active/current tablink class */
 .tab button.active {
   text-decoration: underline;
-  background-color: var(--background-color);
-  color: var(--text-color-link-active);
+  background-color: var(--text-color);
+  color: var(--background-color);
+  
 
 }
 
@@ -55,9 +58,10 @@ eleventyNavigation:
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid var(--text-color);;
+  border: 1px solid var(--text-color);
   border-top: none; /*this keeps the lines doubling up*/
   min-height: 200px;
+  border-radius: 0px 0px 3px 3px; /*cycles through corners starting with top left*/
 }
 </style>
 
@@ -95,8 +99,8 @@ I design and facilitate workshops and events that give people a context to play 
 
 ## Recent and upcoming workshops and talks
 
-Playful Learning and Sustainable Energy **| Cambridge MA | July 7-8 2023**  
-\- Workshop: TBA
+**Playful Learning and Sustainable Energy | Cambridge MA | July 7-8 2023**  
+\- Guest MC
 
 **[Playful Schools Conference](https://learningthroughplay.com/about-us/events/playful-schools-conference/) | Broadcast | March 28 2023**  
 \- Workshop: Playing Together at a Distance
