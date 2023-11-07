@@ -73,7 +73,7 @@ eleventyNavigation:
   <h1>
     I like to work to supporting people at the intersection of creativity, learning, and communication by designing creative learning experiences, managing programs, and building relationships.
   </h1>
-  </div>
+</div>
 
 
 
