@@ -5,7 +5,7 @@ tags:
   - "design"
   - "selected-portfolio"
   - "the-lego-idea-studio"
-cover: /img/IMG_0571-scaled.jpg
+cover: /img/kaleidoscope_cover.jpg
 ---
 
 <style>

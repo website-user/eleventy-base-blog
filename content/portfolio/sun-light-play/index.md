@@ -6,7 +6,7 @@ tags:
   - "selected-portfolio"
   - "the-lego-idea-studio"
 
-cover: /img/IMG_1743-scaled.jpg
+cover: /img/sunlight-play-cover.jpg
 ---
 
 {% image "./images/5117B405-11B8-472F-B689-2F1D77731650-scaled.jpeg", "" %}

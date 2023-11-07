@@ -6,7 +6,8 @@ tags:
   - "facilitation"
   - "selected-portfolio"
   - "workshop"
-cover: "063AA8B8-1823-4E49-9CF7-AC818C4EAA3B_1_105_c.jpeg"
+cover: /img/strandede-leg-cover.jpeg
+
 ---
 
 <style>

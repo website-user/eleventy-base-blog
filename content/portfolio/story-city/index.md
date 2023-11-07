@@ -4,7 +4,7 @@ date: "2021-01-04"
 tags: 
   - "selected-portfolio"
   - "the-lego-idea-studio"
-cover: /img/EUHUfG4XgAYOQXU.jpeg
+cover: /img/story-city-cover.jpeg
 ---
 
 # Story City

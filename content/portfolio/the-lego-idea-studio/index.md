@@ -1,10 +1,10 @@
 ---
 title: "The LEGO Idea Studio"
 date: "2020-12-11"
-cover: "./images/IMG_1383-1.png"
+cover: "/img/IMG_1383-1.png"
 ---
 
-<img src="/img/tLIS.gif" alt="LEGO Idea Studio Logo" width=200px>
+<img src="/img/tLIS.gif" alt="LEGO Idea Studio Logo" width=20px>
 
 The LEGO Idea Studio was a center for developing and demonstrating hands-on experiences of learning through play and the LEGO Idea. Housed in the very first LEGO factory in Billund Denmark, the LIS acted as a workshop space and design studio; leveraging workshops to rapidly test new designs; and leveraging the messiness and presence of new designs to demonstrate the playful nature of design explorations.
 

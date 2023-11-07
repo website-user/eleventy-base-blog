@@ -5,7 +5,7 @@ tags:
   - "the-lego-idea-studio"
   - "design"
   - "selected-portfolio"
-cover: "./images/Open-ended-building-instructions.png"
+cover: "/img/Open-ended-building-instructions.png"
 ---
 
 ## Open-Ended Building Instructions

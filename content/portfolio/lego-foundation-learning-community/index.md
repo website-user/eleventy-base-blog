@@ -4,7 +4,7 @@ date: "2021-01-04"
 tags: 
   - "learning-community"
   - "the-lego-idea-studio"
-cover: "DSC0540-scaled.jpg"
+cover: /img/LF-learning-community-cover.jpg
 ---
 
 I ran a program at the LEGO Foundation called Learning Learning Through Play Through Learning Through Play. The program was designed to give my colleagues an embodied sense of what _learning through play_ feels like through experiences of play and interest-driven exploration, so that their work in program design, grant management, and policy advising cold be informed by those experiences of play.

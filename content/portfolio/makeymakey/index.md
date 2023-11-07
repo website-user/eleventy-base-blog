@@ -2,7 +2,7 @@
 title: Makey Makey
 description: this is a page about my work at Makey Makey
 date: 2020-12-15
-cover: /img/Parque-de-Farrapos.jpg
+cover: /img/Makey_Makey_drawing.svg
 ---
 
 # Makey Makey
