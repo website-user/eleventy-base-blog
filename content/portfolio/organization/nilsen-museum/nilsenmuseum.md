@@ -1,7 +1,7 @@
 ---
 title: "Nilsen Museum"
 date: "2017-05-28"
-cover: "/img/TheNilsenMuseum-02.png"
+cover: /img/nilsen-museum-cover.svg
 ---
 
 ![The Nilsen Museum Logo](/img/TheNilsenMuseum-02.png)

@@ -2,8 +2,9 @@
 title: Frontløberne
 description: this is a page about my work at Frontløberne
 date: 2023-09-26
-cover: /img/Parque-de-Farrapos.jpg
-
+cover: /img/frontloberne-cover.svg
+tags:
+    - "organization"
 ---
 
 # Frontløberne

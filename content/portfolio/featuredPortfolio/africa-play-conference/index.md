@@ -8,18 +8,6 @@ tags:
 cover: /img/IMG_5485-scaled.jpg
 ---
 
-Africa Play 2019 was a conference hosted by Unicef, the South African Department of Basic Education, and the LEGO Foundation. The conference gathered practitioners, administrators, and policymakers from across the African continent to put a tight focus on the need to prioritise play in childhood development.
-
-
-
-
-<div class="inline">
-    <div>
-    {% image "./images/Play-Day-Skill-Tower.png", "" %}
-    </div>
-    <p>I designed five playgrounds for the conference, each based on one of the [LEGO Foundation's Five Skills for Holistic Development](https://www.legofoundation.com/en/why-play/skills-for-holistic-development/). The conference attendees were able to construct deeper understandings of the _five skills_ model having experienced them at the conference.</p>
-  </div>
-
 <style>
 img {
   width: 100%;
@@ -32,6 +20,20 @@ img {
 	margin-right:20px
 }
 </style>
+
+Africa Play 2019 was a conference hosted by Unicef, the South African Department of Basic Education, and the LEGO Foundation. The conference gathered practitioners, administrators, and policymakers from across the African continent to put a tight focus on the need to prioritise play in childhood development.
+
+
+
+
+<div class="inline">
+    <div>
+    {% image "./images/Play-Day-Skill-Tower.png", "" %}
+    </div>
+    <p>I designed five playgrounds for the conference, each based on one of the [LEGO Foundation's Five Skills for Holistic Development](https://www.legofoundation.com/en/why-play/skills-for-holistic-development/). The conference attendees were able to construct deeper understandings of the _five skills_ model having experienced them at the conference.</p>
+  </div>
+
+
 
 <br>
 <br>

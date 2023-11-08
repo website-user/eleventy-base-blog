@@ -1,7 +1,7 @@
 ---
 title: "Endor ALC"
 date: "2020-12-11"
-cover: /img/IMG_1384.png
+cover: /img/endor-cover.png
 ---
 
 {% image "./images/EndorLogoTrnasparentEdit.png", "" %}
@@ -10,6 +10,7 @@ Endor ALC was a community and resource center for self-directed learners aged 14
 It was open from fall 2013 to spring 2017. A member of the [Agile Learning Centers network](https://agilelearningcenters.org/), Endor used (and remixed) tools and practices from agile management to enable students to reach their goals and co-create the culture of the organization.
 
 {% image "./images/EndorHomePageBanner.png", "" %}
+
 
 ## Philosophy
 

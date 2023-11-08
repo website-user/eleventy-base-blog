@@ -1,7 +1,7 @@
 ---
 title: "The LEGO Idea Studio"
 date: "2020-12-11"
-cover: "/img/IMG_1383-1.png"
+cover: /img/the-lego-foundation-cover.svg
 ---
 
 <img src="/img/tLIS.gif" alt="LEGO Idea Studio Logo" width=20px>

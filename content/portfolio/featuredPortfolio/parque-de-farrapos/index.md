@@ -5,6 +5,7 @@ tags:
   - "selected-portfolio"
   - "the-lego-idea-studio"
 cover: /img/Parque-de-Farrapos.jpg
+
 ---
 
 Parque de Farrapos was a play festival held in 3 cities in the state of Espirito Santo, Brazil, during the summer holidays in February, 2020.
