@@ -16,6 +16,8 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
+{# Liam 2023-11-09 I'm commenting out the next / previous post option in blog posts.
+
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
 {%- set nextPost = collections.posts | getNextCollectionItem %}
@@ -26,3 +28,5 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %}
+
+#}

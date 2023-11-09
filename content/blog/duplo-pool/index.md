@@ -5,6 +5,8 @@ tags:
   - "duplo"
   - "media-lab"
   - "photography"
+cover: 
+description: 
 ---
 
 The coolest place in Billund to have your photo taken is in the Duplo pool at LEGO House.

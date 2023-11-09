@@ -25,6 +25,14 @@ body {
   border-radius: 2px;
 }
 
+
+.organizationImage {
+	width: 14em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
 .portfolioItem {
     /* This makes sure the image and title inside it stack vertically */
     display: flex;
@@ -61,14 +69,18 @@ body {
     {% endfor %}
 </div>
 
+<br>
+<br>
 
 <h1>Organizations I've worked for / with</h1>
+
+<br>
 
 <div class="portfolioLayout">   
     {% for post in collections.organization %}
       <div class="portfolioItem">
         <a href="{{post.url}}">
-          <img class="portfolioImage" src="{{post.data.cover}}">
+          <img class="organizationImage" src="{{post.data.cover}}">
         </a>
         <h3> 
           <a href="{{post.url}}">{{post.data.title}}</a>
