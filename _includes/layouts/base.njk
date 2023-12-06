@@ -33,9 +33,9 @@
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 		
-		{# 2023-10-09 can't get the favicon plugin to work. Have submitted an issue on Gitub #}
-
-		<link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+		{% favicons "public/img/favicon.svg" %}	
+		
+		{# This is the "cheap" favicon thing - trying the above, soluntion from forum on github <link rel="icon" type="image/x-icon" href="/img/favicon.svg"> #}
 
 	</head>
 	<body>
