@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Frontløberne | Liam Nilsen</title>
+		<meta name="description" content="this is a page about my work at Frontløberne">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Liam Nilsen">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Liam Nilsen">
+		
+		<style>* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+	min-height: 100%; /*2023-09-27 adding for footer to be bottom*/
+
+}
+body {
+	max-width: 54em; /*Set the max width of the content on the page*/
+}
+
+
+#page-container {				 /* Footer div stuff */
+	position: relative;
+	min-height: 100vh;
+  }
+  
+  #content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	padding: 1rem;
+	width: 100%;
+	height: 2.5rem;            /* Footer height */
+  }
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+/*Liam: ditched the bottom border by bringing it to 0px */
+header {
+	border-bottom: 0px dashed var(--color-gray-20);
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+/* previously was display:flex; */
+header {
+	display: block;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex; 	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-item {
+	display: inline-block;
+/*	margin-right: 1em; */
+	margin: 0 auto; /* Liam: I've reset the margin here which spaces out the nav menu items and centers them.*/
+	position: relative; /* This is important to position the dropdown relative to the parent nav item */
+}
+.nav-item a[href]:not(:hover) { /*The styling of a nav menu item on hover*/
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] { /*The styling that shows the current page you're on*/
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}
+
+.logo {
+    max-width: 26em; /* Adjust as needed */
+    margin: 0 auto; /* Centers the logo if the header is flexbox or grid */
+    display: block; /* If you want to center the logo for block-level containers */
+}
+
+.logo-container {
+    text-align: center; /* Center the logo within its container */
+    margin-bottom: 12px; /* Optional space between the logo and the menu */
+}
+
+
+/* Liam: GBT got me adding this on 2023-09-17. Style for the dropdown */
+.dropdown {
+    display: none; 
+    position: absolute;
+    z-index: 1;
+	list-style-type: none; /* Removes bullet points */
+    padding-left: 0; /* Removes the default padding */
+} 
+
+.dropdown a {
+    padding: 5px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+nav li:hover .dropdown { /* Show the dropdown when hovering over its parent li element */
+    display: block;
+	background-color: var(--background-color);
+}
+
+/*Liam 2023-09-17: still an issue with the dropdown, which is that the Current Page styling isn't working. also, it's not going to work on mobile. Yet.*/
+
+
+.postlist-cover { /*this is working*/
+    max-width: 100px;  /* Adjust this to your desired width */
+    height: auto;
+    margin-right: 10px;  /* Space between the image and the post title */
+    vertical-align: middle;  /* Aligns the image with the post title */
+}
+
+
+svg {
+	fill: var(--text-color);
+}
+
+svg:hover {
+	opacity: 90%;
+}
+
+/* Message Box */
+.message-box {
+	--color-message-box: #ffc;
+
+	display: block;
+	background-color: var(--color-message-box);
+	color: var(--color-gray-90);
+	padding: 2em 2em; /* 16px 10px /16 */
+}
+.message-box ol {
+	margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.message-box {
+		--color-message-box: #082840;
+	}
+}
+
+img {
+	width:100%;
+	height:100%;
+}</style>
+		
+		
+
+		<link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+
+	</head>
+	<body>
+		<div id="page-container">
+   		<div id="content-wrap">
+		
+		<!-- Liam: this is an accessability feature -->
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<!-- Liam: commented out this home link on 2023-09-16 <a href="/" class="home-link">Liam Nilsen</a> -->
+
+	        <div class="logo-container">
+			<a href="/">        
+				<svg viewbox="0 0 292 56"
+					href=
+					alt="Liam Nilsen" 
+   					class="logo" 
+  					id="logo">
+				<path
+					  d="m 65.742422,55.273923 c -1.664028,-0.412091 -7.186956,-2.816181 -9.27781,-4.038564 -1.757637,-1.027572 -2.130905,-0.968014 -3.560165,0.568063 -1.332548,1.432134 -2.355991,1.828616 -3.852408,1.492426 -1.911826,-0.429519 -2.804814,-1.628535 -2.804814,-3.76603 0,-1.428277 0.295116,-2.3122 1.664306,-4.984894 1.453993,-2.838231 1.666812,-3.510324 1.684147,-5.318608 0.03432,-3.580786 1.126085,-7.571394 2.628861,-9.60904 0.357754,-0.485087 0.745994,-1.308917 0.862755,-1.830735 0.277381,-1.239645 1.527267,-4.487956 1.943383,-5.050636 0.179131,-0.242222 0.895513,-0.731106 1.591962,-1.086407 1.682324,-0.858257 3.622294,-0.560437 5.163406,0.792677 1.346649,1.182375 1.508894,1.54705 4.325047,9.721383 1.198349,3.478398 2.317256,6.586488 2.48646,6.906867 0.556955,1.054556 1.581852,0.681787 2.543844,-0.925232 0.496404,-0.829256 1.539157,-2.48046 2.31722,-3.669343 0.778063,-1.188883 1.414657,-2.319163 1.414657,-2.511734 0,-0.192572 0.606932,-1.389346 1.34875,-2.659499 0.741807,-1.270154 1.931987,-3.577813 2.644857,-5.128133 1.948182,-4.236885 4.033847,-5.148352 6.855674,-2.99604 1.465628,1.117892 2.132902,2.441931 2.129852,4.226148 -0.003,1.661894 1.363234,7.589119 1.7491,7.589119 0.143703,0 0.502654,-0.561703 0.79766,-1.248229 0.295016,-0.686527 0.80216,-1.847379 1.12701,-2.579674 0.324839,-0.732293 0.697258,-1.855699 0.827594,-2.496457 0.464688,-2.284431 1.073563,-3.271124 2.45273,-3.974723 0.738848,-0.376933 1.729764,-0.685332 2.202031,-0.685332 1.03484,0 3.132079,1.024932 3.843909,1.878532 1.46443,1.756068 3.46687,6.897534 3.9709,10.195662 0.14621,0.956747 0.59612,2.862946 0.99981,4.235997 0.40368,1.373052 0.80863,3.28063 0.89989,4.239063 0.15235,1.599901 0.0837,1.82478 -0.83756,2.746103 -1.51103,1.511032 -2.50711,1.343744 -4.7994,-0.806042 -1.05267,-0.987231 -1.913953,-2.028713 -1.913953,-2.314404 0,-0.789381 -1.943316,-4.863303 -2.319861,-4.863303 -0.376999,0 -0.473213,0.374481 -1.146758,4.463399 -0.663489,4.02784 -2.152841,7.06526 -3.802274,7.754436 -1.519136,0.634735 -4.257128,0.117013 -5.432914,-1.0273 -1.823442,-1.774617 -2.082968,-2.347602 -4.277067,-9.443014 -0.410436,-1.327284 -0.859069,-2.413243 -0.996975,-2.413243 -0.137906,0 -0.450908,0.48681 -0.695567,1.081799 -0.830514,2.019782 -4.901372,7.73038 -6.933108,9.725765 l -2.022937,1.986747 v 2.220356 c 0,2.910461 -0.566556,3.669466 -2.850481,3.818749 -0.903729,0.05907 -2.232023,-0.03843 -2.951763,-0.216675 z M 58.377057,43.803108 c 0.35537,-0.268787 1.159216,-0.488705 1.786325,-0.488705 1.269813,0 1.254091,0.158685 0.318914,-3.218926 -0.558786,-2.018185 -1.526447,-3.631345 -1.933878,-3.223912 -0.322263,0.322261 -1.649639,5.784678 -1.649639,6.788589 0,0.769187 0.576605,0.824946 1.478278,0.142954 z M 6.978923,50.935178 C 4.0438874,50.429797 2.9315353,49.714529 1.8934927,47.665124 1.0228906,45.946297 0.97837954,45.628871 0.98333064,41.174335 0.98655064,38.288794 1.244525,34.701743 1.65534,31.830697 2.0220808,29.267667 2.4013721,25.298299 2.498209,23.00988 2.7261534,17.623154 4.0762476,9.3795633 5.1482618,6.8288195 5.3877079,6.2590839 5.6899337,5.060784 5.8198746,4.165931 5.9498165,3.271078 6.1920437,2.276798 6.3581585,1.956419 6.746102,1.208206 8.6937179,1.179642 9.8021401,1.905909 c 0.4465609,0.292598 1.1368539,0.6526066 1.7916869,0.6711686 0,0 0.819244,0.028863 1.085181,0.3236649 0.59996,0.66508 0.116204,2.2843115 0.116204,2.2843115 -0.310402,4.1574263 -0.842889,8.460376 -1.340794,10.834746 -0.249538,1.189978 -0.691801,4.03594 -0.982805,6.324359 -0.291005,2.28842 -0.6717959,4.984595 -0.8462029,5.991499 -0.415645,2.399632 -0.818608,12.298825 -0.545018,13.388896 0.273046,1.087903 1.9447549,1.776649 5.0477439,2.079679 4.274491,0.417435 7.154512,1.800026 7.154512,3.434617 0,1.056346 -0.727836,2.231593 -1.706361,2.755284 -1.55638,0.832949 -9.6945169,1.440882 -12.597364,0.941046 z M 236.72864,49.302234 c -2.49657,-1.255303 -4.10632,-3.096826 -5.27552,-6.035113 -1.03424,-2.599091 -1.13414,-4.844309 -0.4902,-11.017142 0.46839,-4.490057 0.46458,-4.58738 -0.20805,-5.325778 -2.16461,-2.376228 -1.8834,-3.709486 1.54676,-7.33321 3.47912,-3.675442 5.27921,-4.655307 8.63695,-4.701453 1.83944,-0.02528 3.20937,0.184693 5.02527,0.770233 3.02995,0.977015 3.73074,1.6521 3.59461,3.462782 -0.15366,2.043717 -1.22425,2.657642 -5.01854,2.87786 -2.942,0.170753 -3.1424,0.233027 -4.81721,1.497019 -0.96114,0.72537 -1.74752,1.463207 -1.74752,1.639639 0,0.176432 0.46515,0.709113 1.03367,1.183738 0.71747,0.59897 1.04987,1.184859 1.0866,1.915256 0.0291,0.578767 0.14718,1.146561 0.26238,1.261763 0.11521,0.115202 1.2361,0.354848 2.49088,0.532546 2.10359,0.297906 4.78163,1.542782 4.77819,2.221122 -0.005,0.902478 -1.53141,2.5309 -2.92017,3.114463 -0.86472,0.36336 -2.29775,0.984505 -3.18453,1.380322 -2.63321,1.175354 -3.26877,2.78175 -1.68675,4.263288 0.84901,0.795093 0.93957,0.805322 6.15792,0.695626 4.95604,-0.104183 5.29613,-0.07211 5.29439,0.499291 -0.004,1.235275 -0.71255,3.113862 -1.55068,4.109925 -0.83122,0.987846 -3.01312,2.325769 -3.79289,2.325769 -0.20847,0 -0.85103,0.213002 -1.42792,0.473339 -0.57689,0.260336 -1.61059,0.559911 -2.29712,0.665721 -0.68653,0.105812 -1.73504,0.276938 -2.33002,0.380283 -0.80839,0.140409 -1.60717,-0.07626 -3.1605,-0.857289 z M 33.867894,49.398354 C 32.76009,48.71119 32.698884,48.454525 32.417095,43.3144 c -0.172615,-3.148658 -0.09362,-5.051415 0.324762,-7.822235 0.304073,-2.013809 0.664248,-5.998293 0.800389,-8.854408 0.268678,-5.636677 0.590945,-6.670041 2.280454,-7.312391 1.080207,-0.410694 4.741327,0.452181 5.348394,1.260543 1.02365,1.363075 -0.08487,12.599719 -1.798912,18.234867 -1.280967,4.211358 -1.430108,4.894024 -1.438541,6.584696 -0.01315,2.636004 -1.183764,4.588606 -2.732162,4.557291 -0.240878,-0.0048 -0.840991,-0.258855 -1.333585,-0.564409 z m 180.973456,0.365927 c -2.51354,-0.637714 -2.80642,-0.82994 -3.02293,-1.984016 -0.29676,-1.581905 0.37926,-3.095349 1.48397,-3.322229 0.92151,-0.189254 4.20287,-1.348937 5.01175,-1.771229 1.01579,-0.53031 1.14253,-1.234756 0.50115,-2.78546 -0.86753,-2.097504 -2.93319,-3.44003 -5.69338,-3.700295 -1.12876,-0.106434 -2.65305,-0.400496 -3.38732,-0.653473 -1.79153,-0.617231 -3.86385,-2.304873 -4.38999,-3.575087 -0.6227,-1.503318 0.0208,-4.490735 1.66574,-7.732548 0.73711,-1.452747 1.34021,-2.834804 1.34021,-3.071238 0,-0.670731 4.33595,-4.505022 5.87682,-5.196884 1.35274,-0.60739 1.41576,-0.607107 2.86205,0.01284 1.76201,0.755285 2.91127,2.098227 2.91127,3.401894 0,0.73468 -0.52025,1.452138 -2.32077,3.200507 -1.27643,1.239449 -2.69941,2.522666 -3.16219,2.851591 -0.61922,0.440124 -0.8414,0.89849 -0.8414,1.73581 0,1.268233 0.41738,1.604173 2.44931,1.971374 0.70636,0.127651 1.94211,0.521836 2.7461,0.875966 0.80399,0.35413 2.12624,0.93683 2.93832,1.294889 1.02108,0.45021 1.90154,1.226366 2.85447,2.5163 2.19288,2.968393 2.64344,4.246958 2.65179,7.52514 0.009,3.505978 -0.70607,5.369685 -2.72209,7.095323 -1.23427,1.056487 -1.58999,1.1853 -3.27318,1.1853 -1.03864,0 -2.77168,0.06625 -3.8512,0.147212 -1.07953,0.08097 -2.26236,0.0712 -2.6285,-0.02169 z m 43.21234,-0.662524 c -1.47849,-0.729131 -2.52079,-3.141277 -2.95076,-6.828796 -0.1394,-1.195617 -0.0785,-2.135072 0.16827,-2.596196 0.2127,-0.397431 0.54183,-2.550064 0.73139,-4.783628 0.57064,-6.723834 0.71176,-7.192338 2.91965,-9.693397 2.92008,-3.307823 3.40367,-3.62263 4.93244,-3.210974 2.13901,0.575977 2.49734,1.022589 2.71594,3.385136 0.23894,2.582469 1.1775,4.0545 5.35639,8.401016 3.05708,3.179709 4.07503,3.880845 5.63443,3.880845 1.17691,0 1.77523,-0.760437 2.35707,-2.99575 0.21444,-0.823831 0.58146,-1.947237 0.81561,-2.496458 0.23414,-0.549221 0.60142,-2.34667 0.81618,-3.994333 0.21957,-1.684569 0.71215,-3.651128 1.12545,-4.493143 0.84413,-1.719789 2.66173,-3.101369 3.70359,-2.815143 1.96083,0.538694 3.16728,1.292162 3.55054,2.217448 0.80486,1.943081 0.43304,4.12156 -2.20392,12.913073 -0.57955,1.932212 -0.78434,3.211705 -0.64587,4.035299 0.25183,1.497761 -0.40102,3.118434 -1.77741,4.412338 -0.92423,0.868834 -1.18433,0.942864 -2.7871,0.793261 -0.97227,-0.09075 -2.21711,-0.348679 -2.76634,-0.573172 -0.54922,-0.224493 -2.61337,-0.455912 -4.587,-0.514265 l -3.58843,-0.106095 -2.49621,-1.693655 c -1.3729,-0.931511 -2.59841,-1.693657 -2.72333,-1.693657 -0.12493,0 -0.86878,-0.629727 -1.65301,-1.399395 -0.89092,-0.874364 -1.54075,-1.280237 -1.73204,-1.081798 -0.16838,0.174679 -0.35624,2.465198 -0.41745,5.090042 -0.11096,4.757966 -0.11413,4.774881 -1.04523,5.575422 -1.08058,0.929065 -1.96943,0.997534 -3.45285,0.265975 z m -63.84973,-2.352619 c -3.2316,-0.725753 -5.16152,-2.306657 -6.5262,-5.345975 -1.34269,-2.990313 -1.6197,-5.167852 -1.49907,-11.783728 0.099,-5.433351 0.16217,-5.950103 0.84344,-6.906867 0.56474,-0.793104 0.98323,-1.031386 1.7955,-1.022341 1.24146,0.01383 1.9572,0.390122 3.83714,2.017365 l 1.38291,1.197008 0.20627,5.127352 c 0.21581,5.364434 0.57359,6.822203 2.10528,8.578009 0.59256,0.679263 1.11108,0.821038 3.7646,1.029313 3.66141,0.287386 5.54304,1.058632 6.00513,2.461393 0.24879,0.755244 0.17943,1.130346 -0.3385,1.830736 -0.70941,0.959316 -1.60384,1.282755 -6.47971,2.343155 -3.21625,0.699467 -3.83775,0.757337 -5.09679,0.47458 z m -65.6479,-1.09563 c -0.59009,-0.359784 -1.17105,-1.045323 -1.29105,-1.523421 -0.23819,-0.949043 -0.0596,-3.702498 0.5327,-8.210589 0.48827,-3.716627 0.27944,-8.319365 -0.46414,-10.229887 -0.31703,-0.814565 -1.10569,-2.066853 -1.75256,-2.782863 -1.4725,-1.629889 -2.22557,-3.381161 -1.94407,-4.520986 0.2904,-1.175897 1.79438,-2.698828 2.66523,-2.698828 1.65308,0 4.41149,1.159726 6.54661,2.752409 2.1145,1.577298 2.33728,1.868646 3.26152,4.265264 1.59433,4.134261 3.21646,6.546005 7.03465,10.459022 3.08888,3.165592 3.79243,3.720108 5.18135,4.08381 0.88392,0.231465 2.20629,0.581897 2.93859,0.778738 1.54437,0.415129 6.21396,0.202176 7.62186,-0.347588 l 0.96464,-0.376682 -0.20638,-6.064217 c -0.11351,-3.335319 -0.0883,-7.096476 0.0561,-8.358125 0.23109,-2.019637 0.39481,-2.412155 1.36934,-3.282889 0.93639,-0.836673 1.30462,-0.962457 2.39099,-0.816745 0.70626,0.09474 1.97729,0.578459 2.82449,1.074952 l 1.54037,0.902712 -0.24104,2.540801 c -0.13257,1.397439 -0.29027,5.436084 -0.35046,8.974765 -0.15444,9.081642 -0.4015,10.348548 -2.26685,11.623746 -1.35507,0.926363 -2.41714,0.956198 -2.96232,0.08322 -0.48334,-0.77394 -1.49264,-0.860359 -2.42836,-0.207921 -0.36111,0.25179 -1.25572,0.531701 -1.98802,0.622024 -0.73229,0.09033 -2.22862,0.347903 -3.32518,0.572403 -1.09657,0.224499 -3.1187,0.35321 -4.49363,0.286025 -2.09201,-0.102226 -2.89302,-0.32428 -4.90949,-1.361013 -2.74119,-1.409327 -5.27008,-3.126517 -7.31914,-4.969903 -0.77396,-0.696286 -1.62462,-1.265974 -1.89032,-1.265974 -0.53022,0 -1.49884,2.860872 -1.78373,5.268364 -0.12297,1.039064 -0.36629,1.531076 -0.87321,1.76564 -0.3865,0.178847 -1.22699,0.609404 -1.86775,0.956792 -1.45048,0.78638 -1.29311,0.785954 -2.57073,0.0069 z m 48.33912,0.0044 c -1.14458,-0.476556 -2.53712,-2.214549 -2.84804,-3.554581 -0.58221,-2.509187 -0.26881,-10.967047 0.68762,-18.557304 0.24343,-1.931884 0.45978,-2.469411 1.3732,-3.411826 0.81629,-0.842195 1.36689,-1.118658 2.22789,-1.118658 1.32996,0 3.23974,1.069739 3.46798,1.942545 0.18122,0.692977 -0.53036,9.13668 -1.1336,13.451318 -0.32385,2.316399 -0.32157,3.337035 0.0112,4.992916 0.69566,3.461891 0.62443,3.882012 -0.89926,5.30329 -1.40589,1.311394 -1.75104,1.425247 -2.88696,0.9523 z"
+       id="path1" />
+	   			</path>
+			</a>
+			</div>
+
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+						<li class="nav-item">
+							<a href="/">Home</a>
+								<ul class="dropdown">
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="/portfolio/">Portfolio</a>
+								<ul class="dropdown">
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="/services/">Services</a>
+								<ul class="dropdown">
+								</ul>
+						</li>
+						<li class="nav-item">
+							<a href="/other-stuff/">Other Stuff</a>
+								<ul class="dropdown">
+										<li><a href="/other-stuff/challenge/">Challenge</a></li>
+										<li><a href="/other-stuff/games/">Games</a></li>
+										<li><a href="/other-stuff/audio/">Audio</a></li>
+										<li><a href="/blog/">Blog</a></li>
+								</ul>
+						</li>
+				</ul>
+			</nav>
+
+	
+		</header>
+
+		<main id="skip">
+			<article class="portfolio-content">
+    <h1 id="frontloberne" tabindex="-1">Frontløberne <a class="header-anchor" href="#frontloberne">#</a></h1>
+<p>My work at Frontløberne<br>
+cover: /img/frontløberne_logo.png</p>
+
+</article>
+		</main>
+
+		
+
+		<!-- Current page: /portfolio/organization-portfolio/frontloeberne/frontløberne/ -->
+
+		</div>
+   			<footer id="footer">
+				<a href="/contact">Contact</a> | <a href="/siteinfo">Site Info</a>
+			</footer>
+ 		</div>
+	</body>
+</html>

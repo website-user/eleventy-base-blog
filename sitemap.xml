@@ -1,63 +1,318 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/posts/firstpost/</loc>
-    <lastmod>2018-05-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/about/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/posts/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/page-list/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/tags/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/tags/another-tag/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/tags/second-tag/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/eleventy-base-blog/tags/number-2/</loc>
-    <lastmod>2021-03-20</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://liam.media/blog/a-portrait-of-the-artist-as-a-young-t-shirt/</loc>
+		<lastmod>2017-03-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/organization/nilsen-museum/nilsenmuseum/</loc>
+		<lastmod>2017-05-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/quilting/</loc>
+		<lastmod>2018-03-24</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/duplo-pool/</loc>
+		<lastmod>2018-03-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/siteinfo/</loc>
+		<lastmod>2020-11-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/speciesEatingContest/</loc>
+		<lastmod>2020-11-24</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/endor-alc/</loc>
+		<lastmod>2020-12-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/organization/the-lego-idea-studio/</loc>
+		<lastmod>2020-12-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/organization/makeymakey/</loc>
+		<lastmod>2020-12-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/contact/</loc>
+		<lastmod>2020-12-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/festival-for-strandede-lege/</loc>
+		<lastmod>2020-12-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/sky-parade-tracks/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/other-stuff/games/whistle-wrestling/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/africa-play-conference/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/open-ended-building-instructions/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/open-world-kaleidoscope/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/parque-de-farrapos/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/story-city/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/featuredPortfolio/sun-light-play/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/nonFeaturedPortfolio/lego-foundation-learning-community/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/nonFeaturedPortfolio/tinkering-toolbox/</loc>
+		<lastmod>2021-01-04</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/other-stuff/games/liamorra/</loc>
+		<lastmod>2021-01-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/mci-mail/</loc>
+		<lastmod>2021-01-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/stop-animation-with-tinkerqube/</loc>
+		<lastmod>2021-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/footer/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/challenge/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/websites/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/duplo/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/media-lab/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/photography/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/the-lego-idea-studio/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/quilting/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/craft-project/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/facilitation/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/stop-animation/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/tinkering/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/tinkerqube/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/workshop/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/nilsen-museum/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/learning-community/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/game/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/cartoon/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/music/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/play/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/rules/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/featuredportfolio/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/design/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/selected-portfolio/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/event/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/organization/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/blog/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/portfolio/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/services/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/other-stuff/challenge/</loc>
+		<lastmod>2023-09-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/other-stuff/</loc>
+		<lastmod>2023-09-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/other-stuff/games/</loc>
+		<lastmod>2023-09-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/other-stuff/audio/</loc>
+		<lastmod>2023-09-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/organization/frontloeberne/frontl%C3%B8berne/</loc>
+		<lastmod>2023-09-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/</loc>
+		<lastmod>2023-09-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/portfolio/</loc>
+		<lastmod>2023-09-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/new-site/</loc>
+		<lastmod>2023-11-09</lastmod>
+	</url>
 </urlset>

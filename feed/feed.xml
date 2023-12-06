@@ -1,66 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Your Blog Name</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	
-	<link href="https://example.com/eleventy-base-blog/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/"/>
-	<updated>2018-09-30T00:00:00Z</updated>
-	<id>https://example.com/</id>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>Liam Nilsen</title>
+	<subtitle>Portfolio and homepage for artist and educator Liam Nilsen.</subtitle>
+	<link href="https://liam.media/feed/feed.xml" rel="self"/>
+	<link href="https://liam.media/"/>
+	<updated>2023-11-09T00:00:00Z</updated>
+	<id>https://liam.media/</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>Liam Nilsen</name>
+		<email>nilsenliam@gmail.com</email>
 	</author>
 	
 	<entry>
-		<title>This is my fourth post.</title>
-		<link href="https://example.com/eleventy-base-blog/posts/fourthpost/"/>
-		<updated>2018-09-30T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/posts/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-base-blog/posts/fourthpost/#section-header&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>New Website</title>
+		<link href="https://liam.media/blog/new-site/"/>
+		<updated>2023-11-09T00:00:00Z</updated>
+		<id>https://liam.media/blog/new-site/</id>
+		<content type="html">&lt;h1 id=&quot;new-website&quot; tabindex=&quot;-1&quot;&gt;New Website &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/new-site/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&#39;ve spent a couple of months learning how to use Eleventy, and I&#39;ve slowly recreated more or less everything from my old Wordpress site over here. The only thing I&#39;ve left behind is contact forms - because I don&#39;t think anyone really trusts contact forms to be answered, at least on personal sites.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my third post.</title>
-		<link href="https://example.com/eleventy-base-blog/posts/thirdpost/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/posts/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;ins class=&quot;highlight-line highlight-line-add&quot;&gt;	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/ins&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;del class=&quot;highlight-line highlight-line-remove&quot;&gt;	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/del&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-base-blog/posts/thirdpost/#section-header&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>Stop Animation with TinkerQube</title>
+		<link href="https://liam.media/blog/stop-animation-with-tinkerqube/"/>
+		<updated>2021-05-25T00:00:00Z</updated>
+		<id>https://liam.media/blog/stop-animation-with-tinkerqube/</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/n9zH0ghSHm-2400.avif 2400w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/n9zH0ghSHm-2400.webp 2400w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/n9zH0ghSHm-2400.png&quot; width=&quot;2400&quot; height=&quot;1256&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Last week I held a workshop with new friend and collaborator &lt;a href=&quot;https://www.upfind.dk/about&quot;&gt;Karsten Juncher&lt;/a&gt; for members of The CLRG (Creative Learning Research Group) at &lt;a href=&quot;https://dokk1.dk/english&quot;&gt;DOKK1 library&lt;/a&gt;. The workshop explored stop animation as a form of tinkering, with special focus on videography and set design; enabled by Karsten&#39;s &lt;a href=&quot;https://www.upfind.dk/tinkerqube&quot;&gt;TinkerQube&lt;/a&gt; &amp;quot;spatial furniture.&amp;quot; TinkerQube is a wooden wireframe cube Karsten designed to more easily bring crafting and tinkering activities into 3D space.&lt;/p&gt;
+&lt;p&gt;The cubes worked really well for this workshop, like stage rigging you&#39;d have in a theater or on a film set - but in miniature. The cube was used to hold clamp lights, to hold backdrops, and support suspended stage elements and flying characters.&lt;/p&gt;
+&lt;p&gt;The CLRG is small group of librarians and researchers that explore ways to bring tinkering into the library context. The Aarhus main library, DOKK1, is the largest library in Scandinavia and has a reputation for expanding the definition of what a library can be, so they&#39;re a good group to prototype with.&lt;/p&gt;
+&lt;p&gt;This workshop had the aims of provoking new thoughts within the CLRG, testing out stop animation as a TinkerCube activity, and getting the librarians&#39; feedback on the cube as a platform for other tinkering activities at the library.&lt;/p&gt;
+&lt;p&gt;Karsten and I designed the workshop to balance narrative play with technical explorations of stop animation camera movement. The cube lowers the floor substantially for new stop-animators to do panning and zooming shots - cameras can be attached to the stage, and moved incrementally to create smooth camera movements when the animation is played back.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/LiYm3M4kvH-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/LiYm3M4kvH-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/LiYm3M4kvH-1024.jpeg&quot; width=&quot;1024&quot; height=&quot;768&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Librarians from The CLRG building an underwater scene&lt;/p&gt;
+&lt;p&gt;Workshop participants used the cube in different ways, some filming from up above in the case of a Pacman inspired scene, and some filming from the side &amp;quot;audience view.&amp;quot; One group put their cube down on the floor to have better access to lighting their stage from above. Another group suspended a character from above, using multiple strings for better movement control.&lt;/p&gt;
+&lt;p&gt;You can find more about the TinkerQube at &lt;a href=&quot;https://www.upfind.dk/&quot;&gt;Upfind.dk&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/Uif1a_02mN-1167.avif 1167w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/Uif1a_02mN-1167.webp 1167w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/Uif1a_02mN-1167.jpeg&quot; width=&quot;1167&quot; height=&quot;650&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/ysrH9NHMnX-1067.avif 1067w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/ysrH9NHMnX-1067.webp 1067w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/ysrH9NHMnX-1067.png&quot; width=&quot;1067&quot; height=&quot;599&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/aKNNgn0b3F-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/aKNNgn0b3F-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/aKNNgn0b3F-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1920&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/ipJhBnde5I-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/ipJhBnde5I-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/ipJhBnde5I-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/awDODpUBy6-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/awDODpUBy6-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/awDODpUBy6-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/mahb9vqtlB-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/mahb9vqtlB-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/mahb9vqtlB-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/qXgZPCFZ_o-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/qXgZPCFZ_o-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/qXgZPCFZ_o-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/USESsM1aIV-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/USESsM1aIV-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/USESsM1aIV-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/eM9_BxCfvs-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/eM9_BxCfvs-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/eM9_BxCfvs-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/WiFAjBTPyX-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/WiFAjBTPyX-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/WiFAjBTPyX-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/dIDFPqAIWO-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/dIDFPqAIWO-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/dIDFPqAIWO-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/_vVia6n1js-2560.avif 2560w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/_vVia6n1js-2560.webp 2560w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/_vVia6n1js-2560.jpeg&quot; width=&quot;2560&quot; height=&quot;1438&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Pictures by Karsten Juncher and Liam Nilsen&lt;/em&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my second post.</title>
-		<link href="https://example.com/eleventy-base-blog/posts/secondpost/"/>
-		<updated>2018-07-04T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/posts/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-base-blog/posts/secondpost/#section-header&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://example.com/eleventy-base-blog/posts/firstpost/&quot;&gt;First post&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://example.com/eleventy-base-blog/posts/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>MCI Mail</title>
+		<link href="https://liam.media/blog/mci-mail/"/>
+		<updated>2021-01-29T00:00:00Z</updated>
+		<id>https://liam.media/blog/mci-mail/</id>
+		<content type="html">&lt;style&gt;
+	img {
+		width: 400px;
+	}
+&lt;/style&gt;
+&lt;p&gt;I&#39;ve been sitting on this domain for a couple years and today I&#39;ve finally done something with it.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/yiTH90ytd_-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/yiTH90ytd_-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;hand drawn text reading Liam at MCI mails dot com&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/yiTH90ytd_-1024.png&quot; width=&quot;1024&quot; height=&quot;237&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;MCI Mail was the first publicly available email provider. Starting in 1983, anyone with a computer, an internet connection, and $35 could purchase a &amp;quot;mailbox&amp;quot;&lt;a href=&quot;https://liam.media/blog/mci-mail/&quot;&gt;1&lt;/a&gt; for sending and receiving Email. MCI also had a service where they would print out digital letters and send a paper copy to a specified physical address.&lt;/p&gt;
+&lt;p&gt;This feature is pretty cool. Because email wasn&#39;t widely used at that point, they designed a feature that integrated into the much more widely used communication system: paper mail. That&#39;s like if early phone companies offered a service that sent phone owners&#39; non-phone owning relatives a person to gossip on their behalf.&lt;/p&gt;
+&lt;p&gt;Recent attempts at this type of inter-media patching seem to have failed. Email notifications of facebook tags, slack messages etc. They largely don&#39;t translate into another medium, they just tell you in one medium to go look at another medium to receive a message. Maybe the recent &lt;a href=&quot;https://www.ftc.gov/news-events/press-releases/2020/12/ftc-sues-facebook-illegal-monopolization&quot;&gt;antitrust cases against facebook&lt;/a&gt; (and others) will lead to some cross-platform communication.&lt;/p&gt;
+&lt;p&gt;Back to MCI Mail.&lt;/p&gt;
+&lt;p&gt;You haven&#39;t been able to get a &lt;code&gt;______@MCImail.com account&lt;/code&gt; since 2003, but I&#39;ve gotten ahold of the domain &lt;a href=&quot;http://MCImails.com&quot;&gt;MCImails.com&lt;/a&gt; (note the plural) and I&#39;m now receiving mail at the address seen above.&lt;/p&gt;
+&lt;p&gt;I got the domain thinking I&#39;d be communicating with old time telecommunication nerds who would spot the domain and smile while they wrote me back from their side of the screen, but I have no idea where I got that idea. I doubt I know more than 3 people who would even get the reference, and none of them have the time to look at the word written between the @ and the .com.&lt;/p&gt;
+&lt;p&gt;But if you&#39;re reading this, you know. And now you can smile and email me.&lt;/p&gt;
+&lt;div class=&quot;message-box&quot;&gt;
+	&lt;h3&gt;⚠️ Update&lt;/h3&gt;
+	&lt;p&gt;I let this domain expire in 2023. If you want an @MCImaills.com email address, you can buy the domain and set it up yourself.&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;1 &lt;a href=&quot;https://www.nytimes.com/1993/11/09/science/peripherals-mci-mail-changes-the-nature-of-letters.html&quot;&gt;Shannon, L.R. (November 9, 1993). &amp;quot;PERIPHERALS; MCI Mail Changes The Nature Of Letters&amp;quot;. New York Times&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my first post.</title>
-		<link href="https://example.com/eleventy-base-blog/posts/firstpost/"/>
-		<updated>2018-05-01T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/posts/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/eleventy-base-blog/posts/firstpost/#section-header&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;// this is a command&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;function myCommand() {&lt;/span&gt;&lt;br /&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	let counter = 0;&lt;/mark&gt;&lt;br /&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	counter++;&lt;/mark&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;console.log(&#39;Test&#39;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+		<title>Sky Parade Tracks</title>
+		<link href="https://liam.media/blog/sky-parade-tracks/"/>
+		<updated>2021-01-04T00:00:00Z</updated>
+		<id>https://liam.media/blog/sky-parade-tracks/</id>
+		<content type="html">&lt;p&gt;Show the different iterations, link to Amos&#39;s Instructable, show Klaus&#39;s iterations, show the book that a library version ended up in. Show the videos on twitter of sky parade gondolas jumping from one string to another.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/LEGOIdeaStudio/status/1060870628687994880&quot;&gt;https://twitter.com/LEGOIdeaStudio/status/1060870628687994880&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/LEGOIdeaStudio/status/1151453494009827328&quot;&gt;https://twitter.com/LEGOIdeaStudio/status/1151453494009827328&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Species Eating Contest</title>
+		<link href="https://liam.media/blog/speciesEatingContest/"/>
+		<updated>2020-11-24T00:00:00Z</updated>
+		<id>https://liam.media/blog/speciesEatingContest/</id>
+		<content type="html">&lt;p&gt;On 24 November 2020, Ethan Mitchell challenged me to a species eating contest. &amp;quot;Species&amp;quot; includes plants, fungus, and animal species.&lt;/p&gt;
+&lt;p&gt;The winner of the challenge is the player who has eaten the most distinct species between the date of the challenge being accepted and the perihelion of comet 12P Pons-Brooks on 4/21/2024.&lt;br&gt;
+To count, species must be consumed at more than 10g, so trace flavorings, individual bugs, and so on are not eligible.&lt;/p&gt;
+&lt;p&gt;Challenger: Ethan Mitchell&lt;/p&gt;
+&lt;p&gt;Follow &lt;a href=&quot;https://www.notion.so/osnoitonwww/Species-Eating-Contest-8cfdfe6abe4a47f8a1351956aa4738a3&quot;&gt;Liam&#39;s progress here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Follow &lt;a href=&quot;http://zemita.net/eattheearth.php&quot;&gt;Ethan&#39;s progress here&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Duplo Pool</title>
+		<link href="https://liam.media/blog/duplo-pool/"/>
+		<updated>2018-03-25T00:00:00Z</updated>
+		<id>https://liam.media/blog/duplo-pool/</id>
+		<content type="html">&lt;p&gt;The coolest place in Billund to have your photo taken is in the Duplo pool at LEGO House.&lt;/p&gt;
+&lt;p&gt;When LEGO Papert Fellow Stefania Druga from the MIT Media Lab came to the Studio for a weeklong residency, we went for a visit at LEGO House and took full advantage of the photo ops.&lt;/p&gt;
+&lt;p&gt;And then the Media Lab used one of the photos in their &lt;a href=&quot;https://mailchi.mp/media/mlweekly-1222?e=9fdfa9baec&quot;&gt;weekly newsletter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Building up for future photography career.&lt;/p&gt;
+&lt;p&gt;Stay tuned for more on the LEGO Papert Fellowships.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/c0w3h6ISHz-1122.avif 1122w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/c0w3h6ISHz-1122.webp 1122w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/c0w3h6ISHz-1122.png&quot; width=&quot;1122&quot; height=&quot;1584&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Here&#39;s LEGO Papert Fellow Kreg Hanning in that same pool a week earlier.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/NwxPGCbJES-4032.avif 4032w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/NwxPGCbJES-4032.webp 4032w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/NwxPGCbJES-4032.jpeg&quot; width=&quot;4032&quot; height=&quot;3024&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Wedding Quilt</title>
+		<link href="https://liam.media/blog/quilting/"/>
+		<updated>2018-03-24T00:00:00Z</updated>
+		<id>https://liam.media/blog/quilting/</id>
+		<content type="html">&lt;p&gt;My dear friend Liam is getting married this year.&lt;/p&gt;
+&lt;p&gt;For all three of Liam&#39;s mother&#39;s kids weddings, &lt;code&gt;____&lt;/code&gt; has made a quilt for her kids and their new spouses, given at their respective weddings.&lt;/p&gt;
+&lt;p&gt;What&#39;s so special about these quilts is that all the quilt squares are made by the couple&#39;s friends.&lt;/p&gt;
+&lt;p&gt;I just finished the quilt square I am contributing, here it is sitting on the counter at the post office, preparing for its journey across the Atlantic.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/SsDjxo847p-2856.avif 2856w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/SsDjxo847p-2856.webp 2856w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/SsDjxo847p-2856.jpeg&quot; width=&quot;2856&quot; height=&quot;2856&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;It was inspired by a hexagon quilt my grandmother made, the game &lt;em&gt;the Settlers of Catan&lt;/em&gt; - and the Pennsylvania countryside.&lt;/p&gt;
+&lt;p&gt;I finished this project with a renewed interest in quilting.&lt;/p&gt;
+&lt;p&gt;stay tuned for a picture&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>A Portrait of the Artist as a Young T-Shirt</title>
+		<link href="https://liam.media/blog/a-portrait-of-the-artist-as-a-young-t-shirt/"/>
+		<updated>2017-03-28T00:00:00Z</updated>
+		<id>https://liam.media/blog/a-portrait-of-the-artist-as-a-young-t-shirt/</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/dpQ0z5kN63-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/dpQ0z5kN63-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/dpQ0z5kN63-1024.png&quot; width=&quot;1024&quot; height=&quot;181&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://medium.com/@LiamN/a-portrait-of-the-artist-as-a-young-t-shirt-ad80894404d9&quot;&gt;Originally published over at Medium on 28 March 2017&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Six years ago I had this arty idea. I saw this three-point eternal loop of an art project that is &lt;em&gt;so tacky&lt;/em&gt; that it’s actually kind of funny. Which in turn makes it cool - funny is cool. But that then makes it tacky, because anything too cool is tacky. And that makes it funny - etc. Ad infinitum.&lt;/p&gt;
+&lt;p&gt;There are many places to go with this idea, but the funnest idea was to print all of these posters of my face and post them up around town, essentially advertising myself; skipping the step of doing anything of worth and going straight to local celebrity.&lt;/p&gt;
+&lt;p&gt;I talked about this idea for years. And the concept evolved; to include a photo series of places the posters were posted, to include t-shirts, to possibly star a subject/model other than myself, and to include an essay explaining the whole idea so spectators wouldn’t have to wonder if I was an extreme narcissist or if this was some really clever art project.&lt;/p&gt;
+&lt;p&gt;Really it’s both of those things. It’s a joke — look at that fun banner image again from the top of this page.&lt;/p&gt;
+&lt;h2 id=&quot;tacky-funny-cool-tacky-funny-cool&quot; tabindex=&quot;-1&quot;&gt;Tacky ➔ Funny ➔ Cool ➔ Tacky ➔ Funny ➔ Cool. . . &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/a-portrait-of-the-artist-as-a-young-t-shirt/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This reminds me, I’ve really been meaning to pick up Susan Sontag’s &lt;em&gt;Notes on Camp&lt;/em&gt; and I suspect that once I do I’ll find that this isn’t really all that original.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/WvYJf3_gCx-270.avif 270w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/WvYJf3_gCx-270.webp 270w&quot;&gt;&lt;img alt=&quot;Patti Smith wearing Keith Richards&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/WvYJf3_gCx-270.jpeg&quot; width=&quot;270&quot; height=&quot;320&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Patti Smith wearing Keith Richards&lt;/p&gt;
+&lt;p&gt;After playing with this idea for years, t-shirts simmered to the top of the pot as the perfect medium for this project because of the specific history of t-shirts with people’s faces on them. In the 1970s &lt;em&gt;Lonely Ladies&lt;/em&gt; in San Francisco printed shirts with rockstars’ faces on them, then &lt;em&gt;the&lt;/em&gt; &lt;em&gt;New Yorker&lt;/em&gt; in New York produced shirts with famous authors and composers from throughout the ages, then lots of other people ripped off the idea. A face on a shirt is no longer content, it is form.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Aside from everything else that holds everyone back from doing anything, &lt;em&gt;setting&lt;/em&gt; stopped me from bringing this project to life. The concept would work best in a small town with a relatively large modern art community, a place where the subject didn’t stand too much to lose and did stand to gain. It hit me recently that that’s exactly where &lt;em&gt;I&lt;/em&gt; am. Sunny little Asheville, North Carolina.&lt;/p&gt;
+&lt;p&gt;So I picked a portrait (photo cred. Noah van Heukelom, 2013), converted it to halftone, and sent it over to Timm at the silkscreen shop. I went to the bulk-bins and bought plain t-shirts by the pound and piled them on my little bike trailer.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/C9pc0OGFxF-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/C9pc0OGFxF-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;Not sure what image is&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/C9pc0OGFxF-1024.png&quot; width=&quot;1024&quot; height=&quot;274&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Goodwill / Bike Trailer / Silkscreen&lt;/p&gt;
+&lt;p&gt;I took the shirts home and started printing. I got pretty high off the experience of printing these shirts - humoring your own ego to such a degree is. . . interesting. It felt amazing. I imagine it’s like seeing your name on the marquee at Carnegie Hall. The smaller auditorium. Except this experience was entirely engineered by myself at home.&lt;/p&gt;
+&lt;p&gt;When some of my housemates got home it just kept going; they thought it was hilarious and in turn I felt even better. Laura even insisted on hanging one of the draft prints in the kitchen above my door - building up the experience even higher.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/BXv4ikmtpR-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/BXv4ikmtpR-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;Not sure what image is&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/BXv4ikmtpR-1024.png&quot; width=&quot;1024&quot; height=&quot;481&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Shane &amp;amp; Laura hang poster / Liam stands next to it&lt;/p&gt;
+&lt;p&gt;I printed more shirts and distributed them at thrift stores around town with the help of some friends. Believe it or not I was too self-conscious to drop the shirts off myself, so Rochelle &amp;amp; Drew helped me drop them off.&lt;/p&gt;
+&lt;p&gt;The goal here was to one day spot someone on the street wearing the shirt, nod, smile, and feel complete. [&lt;strong&gt;UPDATE&lt;/strong&gt;: Still not spotted any]&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/d224AOwGcg-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/d224AOwGcg-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;Not sure what image is&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/d224AOwGcg-1024.png&quot; width=&quot;1024&quot; height=&quot;377&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Rochelle helps with t-shirt drop&lt;/p&gt;
+&lt;p&gt;The next step was to start writing this essay and I got about this far. Then Tuesday, November 8th, 2016 came around and it felt like nothing would ever be funny again. The whole project suddenly felt completely pointless and kind of insulting to everyone in the world. How can you feel good about running a campaign of shameless and amusing self promotion when the rise of modern fascism emerged from that very same thing? I couldn’t answer that question so the project went on ice. The shirts just sat there.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/4Nh_7D7Se6-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/4Nh_7D7Se6-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;Fresh shirts&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/4Nh_7D7Se6-1024.jpeg&quot; width=&quot;1024&quot; height=&quot;768&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Freshly printed Liam t-shirts just sitting there&lt;/p&gt;
+&lt;p&gt;A week went by and Pussy Riot came to town for a panel. Neighbor Emma and I covered it for the AshevilleFM Newshour. Pussy Riot spoke and went through slides of actions they and their friends had done. After they sold some t-shirts we sat down with Sasha, Masha, and Sasha in the greenroom to eat snacks and continue the conversation (&lt;a href=&quot;http://www.ashevillefm.org/post/pussy-riot-on-art-activism-and-america/&quot;&gt;you can listen to that here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I was totally starstruck and inspired - to do anything. They painted this picture of art and activism in Russia that doesn’t exist in the same way here in the states. American “activist” art bares this stigma that it’s kitschy and that it goes stale very quickly, and “fine art” is a valueless commodity traded by the very rich.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/MXL04tWuSP-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/MXL04tWuSP-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/MXL04tWuSP-1024.png&quot; width=&quot;1024&quot; height=&quot;271&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Emma ready with the hard hitting questions / UNCA Panel / an extra sandwich from the greenroom&lt;/p&gt;
+&lt;p&gt;Pussy Riot’s work goes beyond all of that. They’re artists yet their biggest focus these days is &lt;a href=&quot;https://zona.media/&quot;&gt;zona.media&lt;/a&gt;, an outlet covering Russian politics and court proceedings that no one else in the country will cover.&lt;/p&gt;
+&lt;p&gt;Thinking this over brought me back to this here project. The rise of fascism isn’t a reason not to do funny art projects, at least if the reason behind it is to make someone happy and build a persona that can advocate good stuff later on.&lt;/p&gt;
+&lt;p&gt;There’s a privilege component to parse out, too. But as far as I can see I’m not taking anything except attention away from anyone else, so I’ve gone ahead with it. I’d appreciate feedback on this, though.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;What makes me and my modest Scandinavian sensibilities* ok about this whole project is the fact that this is actually self-deprecating. Being egotistical and boastful is bad, so acting on ego intentionally is self-deprecating.&lt;/p&gt;
+&lt;p&gt;*(see &lt;a href=&quot;https://en.wikipedia.org/wiki/Law_of_Jante&quot;&gt;Janteloven&lt;/a&gt;: a cultural norm that enforces modesty and humility; no one is more special than anyone else).&lt;/p&gt;
+&lt;p&gt;By putting myself up I put myself beneath you.&lt;/p&gt;
+&lt;p&gt;You, dear reader, are above me. Because you haven’t printed your face on t-shirts and cast them out in the world. And you can stay above me by wearing one of these shirts, available now for just $10.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/3NLmktDLYN-1024.avif 1024w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/3NLmktDLYN-1024.webp 1024w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/3NLmktDLYN-1024.png&quot; width=&quot;1024&quot; height=&quot;255&quot;&gt;&lt;/picture&gt;&lt;br&gt;
+This embed link used to point to my old website where you could purchase a t-shirt.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
