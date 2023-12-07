@@ -14,13 +14,13 @@ const pluginImages = require("./eleventy.config.images.js");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 // 2023-10-09 adding favicon plugin
-const faviconsPlugin = require("eleventy-plugin-gen-favicons");
+// 2023-12-05 commenting this out because it wont work with the gh-pages npm package thing. const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 
 
 module.exports = function(eleventyConfig) {
 
 	// 2023-10-09 favicon plugin
-	eleventyConfig.addPlugin(faviconsPlugin, {});
+	// eleventyConfig.addPlugin(faviconsPlugin, {});
 
 	// start footnote code
 	// set markdown footnote processor

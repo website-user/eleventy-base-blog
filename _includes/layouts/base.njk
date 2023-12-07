@@ -33,9 +33,10 @@
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 		
-		{% favicons "public/img/favicon.svg" %}	
-		
-		{# This is the "cheap" favicon thing - trying the above, soluntion from forum on github <link rel="icon" type="image/x-icon" href="/img/favicon.svg"> #}
+
+		<link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+
+		{# {% favicons "public/img/favicon.svg" %}	 this is the plugin thing that I can't get to work, and is messing with gh-pages  #}
 
 	</head>
 	<body>
