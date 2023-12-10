@@ -11,6 +11,14 @@
 	},
 	"items": [
 		{
+			"id": "https://liam.media/blog/new-radio-station/station-manager-liam/",
+			"url": "https://liam.media/blog/new-radio-station/station-manager-liam/",
+			"title": "Station manager Liam at Sydhavnsbølgen",
+			"content_html": "<p>I'm now running a community radio station out of <a href=\"https://liam.media/frontloeberne\">Frontløberne</a>.</p>\n<h2 id=\"vision\" tabindex=\"-1\">Vision <a class=\"header-anchor\" href=\"https://liam.media/blog/new-radio-station/station-manager-liam/\">#</a></h2>\n<p>The vision is to strengthen the existing podcasting community, and DJ community, at Frontløberne. And include a ton of new people. And reach more people, through the FM band and our web stream.</p>\n<h2 id=\"website\" tabindex=\"-1\">Website <a class=\"header-anchor\" href=\"https://liam.media/blog/new-radio-station/station-manager-liam/\">#</a></h2>\n<p>You can visit <a href=\"http://sydhavnsboelgen.dk\">sydhavnsboelgen.dk</a> to see the website, as of today (2023-12-10), the website is still under construction, but there is a livestream up there. Which you can also find here ⤵️</p>\n<h2 id=\"livestream-here\" tabindex=\"-1\">Livestream here <a class=\"header-anchor\" href=\"https://liam.media/blog/new-radio-station/station-manager-liam/\">#</a></h2>\n<iframe src=\"https://radio.sydhavnsboelgen.dk/public/sydhavnsb%C3%B8lgen/embed\" frameborder=\"0\" allowtransparency=\"true\" style=\"width: 100%; min-height: 150px; border: 0;\"></iframe>\n",
+			"date_published": "2023-12-10T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://liam.media/blog/new-site/",
 			"url": "https://liam.media/blog/new-site/",
 			"title": "New Website",

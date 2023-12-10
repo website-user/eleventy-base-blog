@@ -4,12 +4,27 @@
 	<subtitle>Portfolio and homepage for artist and educator Liam Nilsen.</subtitle>
 	<link href="https://liam.media/feed/feed.xml" rel="self"/>
 	<link href="https://liam.media/"/>
-	<updated>2023-11-09T00:00:00Z</updated>
+	<updated>2023-12-10T00:00:00Z</updated>
 	<id>https://liam.media/</id>
 	<author>
 		<name>Liam Nilsen</name>
 		<email>nilsenliam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Station manager Liam at Sydhavnsbølgen</title>
+		<link href="https://liam.media/blog/new-radio-station/station-manager-liam/"/>
+		<updated>2023-12-10T00:00:00Z</updated>
+		<id>https://liam.media/blog/new-radio-station/station-manager-liam/</id>
+		<content type="html">&lt;p&gt;I&#39;m now running a community radio station out of &lt;a href=&quot;https://liam.media/frontloeberne&quot;&gt;Frontløberne&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;vision&quot; tabindex=&quot;-1&quot;&gt;Vision &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/new-radio-station/station-manager-liam/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The vision is to strengthen the existing podcasting community, and DJ community, at Frontløberne. And include a ton of new people. And reach more people, through the FM band and our web stream.&lt;/p&gt;
+&lt;h2 id=&quot;website&quot; tabindex=&quot;-1&quot;&gt;Website &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/new-radio-station/station-manager-liam/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can visit &lt;a href=&quot;http://sydhavnsboelgen.dk&quot;&gt;sydhavnsboelgen.dk&lt;/a&gt; to see the website, as of today (2023-12-10), the website is still under construction, but there is a livestream up there. Which you can also find here ⤵️&lt;/p&gt;
+&lt;h2 id=&quot;livestream-here&quot; tabindex=&quot;-1&quot;&gt;Livestream here &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/new-radio-station/station-manager-liam/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe src=&quot;https://radio.sydhavnsboelgen.dk/public/sydhavnsb%C3%B8lgen/embed&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; style=&quot;width: 100%; min-height: 150px; border: 0;&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>New Website</title>

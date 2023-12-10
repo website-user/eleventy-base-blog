@@ -137,12 +137,12 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/challenge/</loc>
+		<loc>https://liam.media/tags/websites/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/websites/</loc>
+		<loc>https://liam.media/tags/challenge/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -158,6 +158,26 @@
 	
 	<url>
 		<loc>https://liam.media/tags/photography/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/communication/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/radio/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/community/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/sydhavnsbolgen/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -207,11 +227,6 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/learning-community/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://liam.media/tags/game/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
@@ -237,12 +252,17 @@
 	</url>
 	
 	<url>
+		<loc>https://liam.media/tags/learning-community/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://liam.media/tags/featuredportfolio/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/design/</loc>
+		<loc>https://liam.media/tags/event/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -252,7 +272,7 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/event/</loc>
+		<loc>https://liam.media/tags/design/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -314,5 +334,10 @@
 	<url>
 		<loc>https://liam.media/blog/new-site/</loc>
 		<lastmod>2023-11-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/blog/new-radio-station/station-manager-liam/</loc>
+		<lastmod>2023-12-10</lastmod>
 	</url>
 </urlset>
