@@ -27,7 +27,7 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/blog/species-eating-contest/</loc>
+		<loc>https://liam.media/other-stuff/challenge/species-eating-contest/</loc>
 		<lastmod>2020-11-24</lastmod>
 	</url>
 	
@@ -122,6 +122,11 @@
 	</url>
 	
 	<url>
+		<loc>https://liam.media/other-stuff/challenge/nydansk-counting/</loc>
+		<lastmod>2021-08-08</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://liam.media/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
@@ -133,6 +138,31 @@
 	
 	<url>
 		<loc>https://liam.media/tags/footer/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/challenge/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/language/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/numbers/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/learning-community/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/the-lego-idea-studio/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -162,12 +192,27 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/learning-community/</loc>
+		<loc>https://liam.media/tags/featuredportfolio/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/the-lego-idea-studio/</loc>
+		<loc>https://liam.media/tags/design/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/selected-portfolio/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/event/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/organization/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -192,26 +237,6 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/featuredportfolio/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/design/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/selected-portfolio/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/event/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://liam.media/tags/facilitation/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
@@ -222,37 +247,7 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/organization/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://liam.media/tags/websites/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/challenge/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/duplo/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/media-lab/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/quilting/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/craft-project/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -272,7 +267,27 @@
 	</url>
 	
 	<url>
+		<loc>https://liam.media/tags/duplo/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/media-lab/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://liam.media/tags/communication/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/quilting/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/craft-project/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
