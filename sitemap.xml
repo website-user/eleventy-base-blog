@@ -142,11 +142,6 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/challenge/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://liam.media/tags/duplo/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
@@ -227,11 +222,6 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/learning-community/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://liam.media/tags/game/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
@@ -253,6 +243,26 @@
 	
 	<url>
 		<loc>https://liam.media/tags/rules/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/learning-community/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/art/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/easter/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/audio/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
@@ -282,17 +292,7 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/art/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/easter/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://liam.media/tags/audio/</loc>
+		<loc>https://liam.media/tags/challenge/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
