@@ -140,6 +140,8 @@
 		<content type="html">&lt;style&gt;
 table, th, td {
   border: 1px solid;
+  border-collapse: collapse;
+
 }
 
 th, td {
@@ -153,9 +155,8 @@ To count, species must be consumed at more than 10g, so trace flavorings, indivi
 &lt;p&gt;Challenger: Ethan Mitchell&lt;/p&gt;
 &lt;p&gt;Follow &lt;a href=&quot;http://zemita.net/eattheearth.php&quot;&gt;Ethan&#39;s progress here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Follow Nathen and Reanna&#39;s progress... where?&lt;/p&gt;
-&lt;p&gt;Follow Liam&#39;s progress below&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1 id=&quot;liam-s-list-of-species&quot; tabindex=&quot;-1&quot;&gt;Liam&#39;s List of Species &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/speciesEatingContest/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;liam-s-list-of-recorded-species-eaten-since-2020-11-24&quot; tabindex=&quot;-1&quot;&gt;Liam&#39;s List of Recorded Species Eaten Since 2020-11-24 &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/speciesEatingContest/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2279,16 +2280,6 @@ To count, species must be consumed at more than 10g, so trace flavorings, indivi
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Mushroom soy sauce&lt;/td&gt;
 &lt;td&gt;2021-07-04&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;2021-12-02&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
