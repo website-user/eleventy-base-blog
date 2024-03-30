@@ -6,18 +6,6 @@ tags:
   - "language"
   - "numbers"
 ---
-<style>
-table, th, td {
-  border: 1.5px solid;
-  border-collapse: collapse; 
-}
-
-th, td {
-  padding-left: 0.3em;
-}
-</style>
-
-
 
 # Counting to 189 in Nydansk
 

@@ -1,25 +1,21 @@
 ---
-title: Games
+title: Art
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Games
+  key: Art
   parent: Other Stuff
-  order: 2
+  order: 6
 ---
 
-<h1>Games</h1>
-
-I like playing games - but more than playing them I like making games. Here are a few I've made.
+<h1>Art</h1>
+<p>An out-of-date portfolio of art projects.</p>
 <br>
 <br>
 <br>
-<br>
-<br>
-
 
 
 <div class="portfolioLayout">   
-    {% for post in collections.game %}
+    {% for post in collections.art %}
       <div class="portfolioItem">
         <a href="{{post.url}}">
           <img class="portfolioImage" src="{{post.data.cover}}">

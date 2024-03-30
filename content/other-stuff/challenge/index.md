@@ -12,33 +12,51 @@ eleventyNavigation:
   padding: 1em;
   border-radius: 3px;
   width: 60%;
-}
+  }
+
+  @media (max-width: 700px) {
+  .box {
+    width: 100%; /* Set width to 100% for mobile */
+  }
+  } 
 
   input[type=submit] {
   cursor: grabbing;
-  /*
-  background-color: var(--text-color);
-  color: var(--background-color);  
+  background-color: var(--background-color); 
+  color: var(--text-color);
+  border: 2px var(--text-color);
+  border-radius: 3px;
+  border-style: solid;
   padding: 14px 16px;
   transition: 0.08s;
-  font-size: 17px;
-  border: none;
-  outline: none;
-  */
+  font-size: 17px;  
+}
+
+input[type=submit]:hover {
+  background-color: var(--text-color);
+  color: var(--background-color); 
+}
+
+#challenge_content {
+  /* Set height */
+  height: 60px; /* Adjust the value as needed */
+
+  /* Set width */
+  width: 100%; /* Adjust the value as needed */
 }
 
 </style>
 
-# Issue a challenge
+# Challenges
 
 Here you can challenge me to any kind of game or competition, or challenge a position I hold.  
 
 I'm especially excited to be challenged to play a game you've invented.  
 
 There is no guarantee the challenge will be accepted.  
+
 Good luck.
 
-<br>
 <br>
 
 <div class="box">
@@ -58,7 +76,7 @@ Good luck.
     <br>
     <div>
       <label for="challenge_content">Your Challenge</label><br>  
-      <textarea id="challenge_content" name="challenge" rows="4" cols="50" placeholder="Please be specific. Include a time, place, and rules." required></textarea>
+      <textarea id="challenge_content" name="challenge" rows="4" cols="46" placeholder="Please be specific. Include a time, place, and rules." required></textarea>
     </div>
     <br>
     <!-- <input type="image" name="submit" src="/img/liam_drawing.svg" alt="Submit" style="width: 100px"/> -->
@@ -76,4 +94,3 @@ Good luck.
         <a href="{{post.url}}">{{post.data.title}}</a>
       </h4>
     {% endfor %}
-

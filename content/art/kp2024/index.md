@@ -8,6 +8,8 @@ tags:
   - "photography"
 cover: /img/DSC_0387.jpg
 description: 
+layout: layouts/portfolio-item.njk
+
 ---
 
 <style>
