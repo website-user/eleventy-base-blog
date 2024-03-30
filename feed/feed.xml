@@ -4,12 +4,22 @@
 	<subtitle>Portfolio and homepage for artist and educator Liam Nilsen.</subtitle>
 	<link href="https://liam.media/feed/feed.xml" rel="self"/>
 	<link href="https://liam.media/"/>
-	<updated>2023-12-10T00:00:00Z</updated>
+	<updated>2024-03-29T00:00:00Z</updated>
 	<id>https://liam.media/</id>
 	<author>
 		<name>Liam Nilsen</name>
 		<email>nilsenliam@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>New Image Workflow</title>
+		<link href="https://liam.media/blog/new-image-workflow/"/>
+		<updated>2024-03-29T00:00:00Z</updated>
+		<id>https://liam.media/blog/new-image-workflow/</id>
+		<content type="html">&lt;h1 id=&quot;playing-with-svgs&quot; tabindex=&quot;-1&quot;&gt;playing with svgs &lt;a class=&quot;header-anchor&quot; href=&quot;https://liam.media/blog/new-image-workflow/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://liam.media/img/_wIG0xuExt-600.avif 600w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://liam.media/img/_wIG0xuExt-600.webp 600w&quot;&gt;&lt;img alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://liam.media/img/_wIG0xuExt-600.svg&quot; width=&quot;600&quot; height=&quot;435&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Station manager Liam at Sydhavnsbølgen</title>
