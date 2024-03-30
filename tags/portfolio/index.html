@@ -148,10 +148,17 @@ header:after {
 
 table {
 	margin: 1em 0;
+	border: 1.5px solid;
+	border-collapse: collapse; 
 }
+
 table td,
 table th {
 	padding-right: 1em;
+	padding-left: 0.3em;
+	border: 1.5px solid;
+
+
 }
 
 pre,
@@ -386,6 +393,47 @@ svg:hover {
 img {
 	width:100%;
 	height:100%;
+}
+
+/*Portfolio grid layout*/
+
+
+.portfolioLayout {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+	grid-gap: 2em;
+}
+
+.portfolioImage {
+	width: 18em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.organizationImage {
+	width: 14em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.portfolioItem {
+    /* This makes sure the image and title inside it stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: to center items horizontally */
+}
+
+.portfolioItem h3 {
+	/* this reduces the spacing between the text and image, and keeps the text from expanding beyond the image. */
+    margin-top: 0; 
+    max-width: 15em;
+}
+
+.portfolioItem a {
+	/*This removes the underline from post title*/
+	text-decoration: none;
 }</style>
 		
 
@@ -466,6 +514,11 @@ img {
 	</li>
 
 	<li class="postlist-item">
+		<a href="/portfolio/featuredPortfolio/endor-alc/" class="postlist-link">Endor ALC</a>
+		<time class="postlist-date" datetime="2020-12-11">December 2020</time>
+	</li>
+
+	<li class="postlist-item">
 		<a href="/portfolio/organization/the-lego-idea-studio/" class="postlist-link">The LEGO Idea Studio</a>
 		<time class="postlist-date" datetime="2020-12-11">December 2020</time>
 	</li>
@@ -476,32 +529,17 @@ img {
 	</li>
 
 	<li class="postlist-item">
-		<a href="/portfolio/organization/makeymakey/" class="postlist-link">Makey Makey</a>
-		<time class="postlist-date" datetime="2020-12-15">December 2020</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/portfolio/featuredPortfolio/sun-light-play/" class="postlist-link">Sunlight Play</a>
-		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/portfolio/featuredPortfolio/story-city/" class="postlist-link">Story City</a>
-		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/portfolio/featuredPortfolio/parque-de-farrapos/" class="postlist-link">Parque de Farrapos</a>
-		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
-	</li>
-
-	<li class="postlist-item">
 		<a href="/portfolio/featuredPortfolio/open-world-kaleidoscope/" class="postlist-link">Open World Kaleidoscope</a>
 		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
 	</li>
 
 	<li class="postlist-item">
-		<a href="/portfolio/featuredPortfolio/open-ended-building-instructions/" class="postlist-link">Open-ended Building Instructions</a>
+		<a href="/portfolio/organization/makeymakey/" class="postlist-link">Makey Makey</a>
+		<time class="postlist-date" datetime="2020-12-15">December 2020</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/portfolio/featuredPortfolio/story-city/" class="postlist-link">Story City</a>
 		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
 	</li>
 
@@ -511,12 +549,22 @@ img {
 	</li>
 
 	<li class="postlist-item">
-		<a href="/portfolio/featuredPortfolio/endor-alc/" class="postlist-link">Endor ALC</a>
-		<time class="postlist-date" datetime="2020-12-11">December 2020</time>
+		<a href="/portfolio/featuredPortfolio/sun-light-play/" class="postlist-link">Sunlight Play</a>
+		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
 	</li>
 
 	<li class="postlist-item">
 		<a href="/portfolio/featuredPortfolio/africa-play-conference/" class="postlist-link">Africa Play Conference</a>
+		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/portfolio/featuredPortfolio/parque-de-farrapos/" class="postlist-link">Parque de Farrapos</a>
+		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/portfolio/featuredPortfolio/open-ended-building-instructions/" class="postlist-link">Open-ended Building Instructions</a>
 		<time class="postlist-date" datetime="2021-01-04">January 2021</time>
 	</li>
 

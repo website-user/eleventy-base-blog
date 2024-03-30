@@ -147,10 +147,17 @@ header:after {
 
 table {
 	margin: 1em 0;
+	border: 1.5px solid;
+	border-collapse: collapse; 
 }
+
 table td,
 table th {
 	padding-right: 1em;
+	padding-left: 0.3em;
+	border: 1.5px solid;
+
+
 }
 
 pre,
@@ -385,6 +392,47 @@ svg:hover {
 img {
 	width:100%;
 	height:100%;
+}
+
+/*Portfolio grid layout*/
+
+
+.portfolioLayout {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+	grid-gap: 2em;
+}
+
+.portfolioImage {
+	width: 18em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.organizationImage {
+	width: 14em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.portfolioItem {
+    /* This makes sure the image and title inside it stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: to center items horizontally */
+}
+
+.portfolioItem h3 {
+	/* this reduces the spacing between the text and image, and keeps the text from expanding beyond the image. */
+    margin-top: 0; 
+    max-width: 15em;
+}
+
+.portfolioItem a {
+	/*This removes the underline from post title*/
+	text-decoration: none;
 }</style>
 		
 
@@ -453,17 +501,7 @@ img {
 
 		<main id="skip">
 			<article>
-    <style>
-table, th, td {
-  border: 1.5px solid;
-  border-collapse: collapse; 
-}
-
-th, td {
-  padding-left: 0.3em;
-}
-</style>
-<h1 id="counting-to-189-in-nydansk" tabindex="-1">Counting to 189 in Nydansk <a class="header-anchor" href="#counting-to-189-in-nydansk">#</a></h1>
+    <h1 id="counting-to-189-in-nydansk" tabindex="-1">Counting to 189 in Nydansk <a class="header-anchor" href="#counting-to-189-in-nydansk">#</a></h1>
 <h3 id="status-complete" tabindex="-1">Status: ✅ Complete <a class="header-anchor" href="#status-complete">#</a></h3>
 <iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/YX17jMytRVU?si=Qdkg_xUx-HEfVsOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h3 id="about-the-challenge" tabindex="-1">About the challenge <a class="header-anchor" href="#about-the-challenge">#</a></h3>

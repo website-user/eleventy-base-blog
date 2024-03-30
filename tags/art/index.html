@@ -148,10 +148,17 @@ header:after {
 
 table {
 	margin: 1em 0;
+	border: 1.5px solid;
+	border-collapse: collapse; 
 }
+
 table td,
 table th {
 	padding-right: 1em;
+	padding-left: 0.3em;
+	border: 1.5px solid;
+
+
 }
 
 pre,
@@ -386,6 +393,47 @@ svg:hover {
 img {
 	width:100%;
 	height:100%;
+}
+
+/*Portfolio grid layout*/
+
+
+.portfolioLayout {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+	grid-gap: 2em;
+}
+
+.portfolioImage {
+	width: 18em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.organizationImage {
+	width: 14em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.portfolioItem {
+    /* This makes sure the image and title inside it stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: to center items horizontally */
+}
+
+.portfolioItem h3 {
+	/* this reduces the spacing between the text and image, and keeps the text from expanding beyond the image. */
+    margin-top: 0; 
+    max-width: 15em;
+}
+
+.portfolioItem a {
+	/*This removes the underline from post title*/
+	text-decoration: none;
 }</style>
 		
 

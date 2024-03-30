@@ -147,10 +147,17 @@ header:after {
 
 table {
 	margin: 1em 0;
+	border: 1.5px solid;
+	border-collapse: collapse; 
 }
+
 table td,
 table th {
 	padding-right: 1em;
+	padding-left: 0.3em;
+	border: 1.5px solid;
+
+
 }
 
 pre,
@@ -385,6 +392,47 @@ svg:hover {
 img {
 	width:100%;
 	height:100%;
+}
+
+/*Portfolio grid layout*/
+
+
+.portfolioLayout {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+	grid-gap: 2em;
+}
+
+.portfolioImage {
+	width: 18em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.organizationImage {
+	width: 14em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.portfolioItem {
+    /* This makes sure the image and title inside it stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: to center items horizontally */
+}
+
+.portfolioItem h3 {
+	/* this reduces the spacing between the text and image, and keeps the text from expanding beyond the image. */
+    margin-top: 0; 
+    max-width: 15em;
+}
+
+.portfolioItem a {
+	/*This removes the underline from post title*/
+	text-decoration: none;
 }</style>
 		
 
@@ -458,10 +506,17 @@ img {
   padding: 1em;
   border-radius: 3px;
   width: 60%;
-}
+  }
+
+  @media (max-width: 700px) {
+  .box {
+    width: 100%; /* Set width to 100% for mobile */
+  }
+  } 
 
   input[type=submit] {
   cursor: grabbing;
+  
   /*
   background-color: var(--text-color);
   color: var(--background-color);  
@@ -474,12 +529,11 @@ img {
 }
 
 </style>
-<h1 id="issue-a-challenge" tabindex="-1">Issue a challenge <a class="header-anchor" href="#issue-a-challenge">#</a></h1>
+<h1 id="challenges" tabindex="-1">Challenges <a class="header-anchor" href="#challenges">#</a></h1>
 <p>Here you can challenge me to any kind of game or competition, or challenge a position I hold.</p>
 <p>I'm especially excited to be challenged to play a game you've invented.</p>
-<p>There is no guarantee the challenge will be accepted.<br>
-Good luck.</p>
-<br>
+<p>There is no guarantee the challenge will be accepted.</p>
+<p>Good luck.</p>
 <br>
 <div class="box">
 <h2 id="submit-a-challenge" tabindex="-1">Submit a Challenge <a class="header-anchor" href="#submit-a-challenge">#</a></h2>
@@ -496,7 +550,7 @@ Good luck.</p>
     <br>
     <div>
       <label for="challenge_content">Your Challenge</label><br>  
-      <textarea id="challenge_content" name="challenge" rows="4" cols="50" placeholder="Please be specific. Include a time, place, and rules." required></textarea>
+      <textarea id="challenge_content" name="challenge" rows="4" cols="46" placeholder="Please be specific. Include a time, place, and rules." required></textarea>
     </div>
     <br>
     <!-- <input type="image" name="submit" src="/img/liam_drawing.svg" alt="Submit" style="width: 100px"/> -->
@@ -507,6 +561,9 @@ Good luck.</p>
 <h2 id="past-challenges" tabindex="-1">Past Challenges <a class="header-anchor" href="#past-challenges">#</a></h2>
 <p><h4><br>
 <a href="/other-stuff/challenge/species-eating-contest/">Species Eating Contest</a><br>
+</h4></p>
+<p><h4><br>
+<a href="/other-stuff/challenge/joe-rogan-covers-episode/">Create a full-length cover of a Joe Rogan episode</a><br>
 </h4></p>
 <p><h4><br>
 <a href="/other-stuff/challenge/nydansk-counting/">Counting to 189 in Nydansk</a><br>
