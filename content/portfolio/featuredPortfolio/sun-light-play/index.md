@@ -9,11 +9,23 @@ tags:
 cover: /img/sunlight-play-cover.jpg
 ---
 
+<style>
+  .gallery img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+    grid-gap: 2em;
+    align-items: center; /* Optional: to center items horizontally */
+  }
+</style>
+
+<div class="gallery">
 {% image "./images/5117B405-11B8-472F-B689-2F1D77731650-scaled.jpeg", "" %}
 
 {% image "./images/F8C130A6-6325-493D-990C-DA3BB5FEF595-scaled.jpeg", "" %}
 
 {% image "./images/4F766CCF-0DC5-41ED-A20C-8CDA3D14FEBC-scaled.jpeg", "" %}
+</div>
 
 Sunlight Play is set of tools for play based exploration of light, shadow, color, movement, scale, and story telling. The main tool is a fully articulable point light source powered by a rechargeable battery with a solar panel embedded in the base. Along with the light, Sunlight Play comes with articulable mirrors, and a range of materials that cast interesting shadows, bend light, and make colored shadows.
 
