@@ -147,10 +147,17 @@ header:after {
 
 table {
 	margin: 1em 0;
+	border: 1.5px solid;
+	border-collapse: collapse; 
 }
+
 table td,
 table th {
 	padding-right: 1em;
+	padding-left: 0.3em;
+	border: 1.5px solid;
+
+
 }
 
 pre,
@@ -222,7 +229,7 @@ header {
 .postlist {
 	list-style: none;
 	padding: 0;
-	padding-left: 1.5rem;
+	padding-left: 0; /*Liam 2023-11-09, was 1.5em but I removed it when removing the numbers*/
 }
 .postlist-item {
 	display: flex;
@@ -231,6 +238,7 @@ header {
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
+/*
 .postlist-item:before {
 	display: inline-block;
 	pointer-events: none;
@@ -238,7 +246,8 @@ header {
 	line-height: 100%;
 	text-align: right;
 	margin-left: -1.5rem;
-}
+} */
+
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
@@ -251,7 +260,7 @@ header {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
+	padding-left: 0; /* Again, was .25em */
 	padding-right: .5em;
 	text-underline-position: from-font;
 	text-underline-offset: 0;
@@ -383,11 +392,53 @@ svg:hover {
 img {
 	width:100%;
 	height:100%;
+}
+
+/*Portfolio grid layout*/
+
+
+.portfolioLayout {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+	grid-gap: 2em;
+}
+
+.portfolioImage {
+	width: 18em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.organizationImage {
+	width: 14em;
+	height: 12em;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.portfolioItem {
+    /* This makes sure the image and title inside it stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: to center items horizontally */
+}
+
+.portfolioItem h3 {
+	/* this reduces the spacing between the text and image, and keeps the text from expanding beyond the image. */
+    margin-top: 0; 
+    max-width: 15em;
+}
+
+.portfolioItem a {
+	/*This removes the underline from post title*/
+	text-decoration: none;
 }</style>
-		
 		
 
 		<link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+
+		
 
 	</head>
 	<body>
@@ -439,6 +490,7 @@ img {
 										<li><a href="/other-stuff/games/">Games</a></li>
 										<li><a href="/other-stuff/audio/">Audio</a></li>
 										<li><a href="/blog/">Blog</a></li>
+										<li><a href="/art/">Art</a></li>
 								</ul>
 						</li>
 				</ul>
@@ -448,7 +500,7 @@ img {
 		</header>
 
 		<main id="skip">
-			<article class="portfolio-content">
+			<article>
     <h1 id="story-city" tabindex="-1">Story City <a class="header-anchor" href="#story-city">#</a></h1>
 <p><picture><source type="image/avif" srcset="/img/6XjB7UNATd-2560.avif 2560w"><source type="image/webp" srcset="/img/6XjB7UNATd-2560.webp 2560w"><img alt="Story City with River" loading="lazy" decoding="async" src="/img/6XjB7UNATd-2560.jpeg" width="2560" height="1438"></picture></p>
 <p>#StoryCity is an online collaborative craft project where a mosaic-like picture of a city comes together when families all over the world create the buildings and stories that make up the city.</p>
@@ -485,6 +537,9 @@ img {
 </section>
 
 </article>
+
+
+
 		</main>
 
 		

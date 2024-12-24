@@ -406,15 +406,15 @@ img {
 .portfolioImage {
 	width: 18em;
 	height: 12em;
-  object-fit: cover;
-  border-radius: 2px;
+  	object-fit: cover;
+  	border-radius: 2px;
 }
 
 .organizationImage {
 	width: 14em;
 	height: 12em;
-  object-fit: cover;
-  border-radius: 2px;
+  	object-fit: cover;
+  	border-radius: 2px;
 }
 
 .portfolioItem {
@@ -501,9 +501,20 @@ img {
 
 		<main id="skip">
 			<article>
-    <p><picture><source type="image/avif" srcset="/img/ss3vkY0s11-2560.avif 2560w"><source type="image/webp" srcset="/img/ss3vkY0s11-2560.webp 2560w"><img alt="" loading="lazy" decoding="async" src="/img/ss3vkY0s11-2560.jpeg" width="2560" height="1707"></picture></p>
+    <style>
+  .gallery img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17em, 1fr));
+    grid-gap: 2em;
+    align-items: center; /* Optional: to center items horizontally */
+  }
+</style>
+<div class="gallery">
+<picture><source type="image/avif" srcset="/img/ss3vkY0s11-2560.avif 2560w"><source type="image/webp" srcset="/img/ss3vkY0s11-2560.webp 2560w"><img alt="" loading="lazy" decoding="async" src="/img/ss3vkY0s11-2560.jpeg" width="2560" height="1707"></picture>
 <p><picture><source type="image/avif" srcset="/img/LRHLeBtys8-2560.avif 2560w"><source type="image/webp" srcset="/img/LRHLeBtys8-2560.webp 2560w"><img alt="" loading="lazy" decoding="async" src="/img/LRHLeBtys8-2560.jpeg" width="2560" height="1707"></picture></p>
 <p><picture><source type="image/avif" srcset="/img/u95DknlcsR-2560.avif 2560w"><source type="image/webp" srcset="/img/u95DknlcsR-2560.webp 2560w"><img alt="" loading="lazy" decoding="async" src="/img/u95DknlcsR-2560.jpeg" width="2560" height="1707"></picture></p>
+</div>
 <p>Sunlight Play is set of tools for play based exploration of light, shadow, color, movement, scale, and story telling. The main tool is a fully articulable point light source powered by a rechargeable battery with a solar panel embedded in the base. Along with the light, Sunlight Play comes with articulable mirrors, and a range of materials that cast interesting shadows, bend light, and make colored shadows.</p>
 <p>The set of tools and materials was designed for settings where electrical infrastructure is not prioritized for child's play or missing entirely, specifically UNICEF's refugee learning centers and the <a href="https://hundred.org/en/innovations/brac-remote-play-labs">BRAC play labs</a>. Sunlight Play facilitates explorative play with no wrong answers. It positions light as material with which to be creative, situating the child as a competent user of the medium and developing creative confidence.</p>
 <p>The prototypes were made using the <a href="https://littlesun.com/about/">little sun</a> lamps designed by Olafur Eliasson.</p>
