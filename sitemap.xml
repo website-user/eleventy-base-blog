@@ -152,11 +152,6 @@
 	</url>
 	
 	<url>
-		<loc>https://liam.media/tags/communication/</loc>
-		<lastmod>2023-09-14</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://liam.media/tags/duplo/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
@@ -168,6 +163,11 @@
 	
 	<url>
 		<loc>https://liam.media/tags/photography/</loc>
+		<lastmod>2023-09-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://liam.media/tags/communication/</loc>
 		<lastmod>2023-09-14</lastmod>
 	</url>
 	
